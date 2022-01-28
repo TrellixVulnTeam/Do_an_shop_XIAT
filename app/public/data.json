@@ -1,0 +1,1446 @@
+{
+    "data": [
+        {
+            "foodId": "f754f617-92b1-4a1b-b516-67f40659cd82",
+            "foodName": "Trà sữa Tocotoco",
+            "images": [
+                {
+                    "imageUrl": "https://images.foody.vn/res/g95/942825/prof/s640x400/foody-upload-api-foody-mobile-avar2-190725141716.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g95/942825/s120x120/d3661864-9270-4c64-896e-32f6ee7991da.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g95/942825/s120x120/c0e5e86d-57f3-462c-9e40-e669e108521c.jpg"
+                }
+            ],
+            "description": "Luôn tâm huyết với việc khai thác nguồn nông sản Việt Nam để tạo ra những ly thức uống tươi ngon, an toàn và giàu giá trị dinh dưỡng, ToCoToCo mở cửa hàng đầu tiên vào năm 2013, mang trong mình lòng đam mê và khát vọng xây dựng một thương hiệu trà sữa thuần Việt, mang đậm hương vị quê hương.ToCoToCo tin rằng thưởng thức một ly trà sữa được pha chế từ trà Mộc Châu, trân châu từ sắn dây Nghệ An hay mứt dâu tằm từ Đà Lạt sẽ là những trải nghiệm hoàn toàn khác biệt và tuyệt vời nhất cho những khách hàng của mình.",
+            "price": 30000,
+            "cateId": "f0d94a0f-1b95-41ae-b598-70d5cd7da3b1",
+            "createdAt": "2021-06-11T10:57:40.89002Z",
+            "updatedAt": "2021-06-11T10:57:40.89002Z"
+        },
+        {
+            "foodId": "3180cba6-e409-482b-804d-ef3c66f553f4",
+            "foodName": "Tiger Sugar Delivery - Đường Nâu Sữa Đài Loan - Thái Phiên",
+            "images": [
+                {
+                    "imageUrl": "https://images.foody.vn/res/g79/787959/prof/s640x400/foody-upload-api-foody-mobile-img_7714-191202170203.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g79/787959/s640x400/foody-tiger-sugar-duong-nau-sua-dai-loan-thai-phien-816-637352820205392857.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g79/787959/s640x400/foody-tiger-sugar-duong-nau-sua-dai-loan-thai-phien-648-637222303962085941.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g79/787959/s640x400/foody-tiger-sugar-duong-nau-sua-dai-loan-thai-phien-427-637222303952710146.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g79/787959/s640x400/foody-tiger-sugar-duong-nau-sua-dai-loan-thai-phien-560-637222303956772988.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g79/787959/s640x400/foody-tiger-sugar-duong-nau-sua-dai-loan-thai-phien-893-637149687287752922.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g79/787959/s640x400/foody-tiger-sugar-duong-nau-sua-dai-loan-thai-phien-942-637149687283528055.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g79/787959/s640x400/foody-tiger-sugar-duong-nau-sua-dai-loan-thai-phien-794-637149687267752542.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g79/787959/s640x400/foody-tiger-sugar-duong-nau-sua-dai-loan-thai-phien-980-637149687272539386.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g79/787959/s640x400/foody-tiger-sugar-duong-nau-sua-dai-loan-thai-phien-340-637149687276322700.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g79/787959/s640x400/foody-tiger-sugar-duong-nau-sua-dai-loan-thai-phien-248-637149687264912548.jpg"
+                }
+            ],
+            "description": " ",
+            "price": 39000,
+            "cateId": "f0d94a0f-1b95-41ae-b598-70d5cd7da3b1",
+            "createdAt": "2021-06-25T05:52:23.859093Z",
+            "updatedAt": "2021-06-25T05:52:23.859093Z"
+        },
+        {
+            "foodId": "226f572d-bdb0-4fa2-8fb1-46df1deb8282",
+            "foodName": "Trà Sữa Tocotoco - Thượng Đình",
+            "images": [
+                {
+                    "imageUrl": "https://images.foody.vn/res/g71/702021/prof/s640x400/foody-mobile-23376408_54246046275.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g71/702021/s640x400/foody-tra-sua-tocotoco-thuong-dinh-913-637244739325202227.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g71/702021/s640x400/foody-checkin-tra-sua-tocotoco-7b-ngoc-hoi-574-636693494579590771.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g71/702021/s640x400/foody-checkin-tra-sua-tocotoco-7b-ngoc-hoi-419-636552636093815277.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g71/702021/s640x400/foody-tra-sua-tocotoco-thuong-dinh-976-637524626087900422.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g71/702021/s640x400/foody-tra-sua-tocotoco-thuong-dinh-539-637524626108839821.jpg"
+                }
+            ],
+            "description": "     ",
+            "price": 96000,
+            "cateId": "f0d94a0f-1b95-41ae-b598-70d5cd7da3b1",
+            "createdAt": "2021-06-25T05:52:23.827783Z",
+            "updatedAt": "2021-06-25T05:52:23.827783Z"
+        },
+        {
+            "foodId": "206fef9f-cb2d-4f1f-89c0-ed037b04fe13",
+            "foodName": "Trà Sữa Tocotoco - Nguyễn Xiển",
+            "images": [
+                {
+                    "imageUrl": "https://images.foody.vn/res/g28/277192/prof/s640x400/foody-mobile-6565646546-jpg-625-636127261456167663.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g28/277192/s640x400/foody-tra-sua-tocotoco-nguyen-xien-992-637098854335665387.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g28/277192/s640x400/foody-tra-sua-tocotoco-nguyen-xien-885-637095329829894257.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g28/277192/s640x400/foody-tra-sua-tocotoco-nguyen-xien-316-636982162400417848.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g28/277192/s640x400/foody-tra-sua-tocotoco-nguyen-xien-791-636941378740066790.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g28/277192/s640x400/foody-tra-sua-tocotoco-nguyen-xien-489-636941378745234354.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g28/277192/s640x400/foody-tra-sua-tocotoco-nguyen-xien-697-636941378735691412.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g28/277192/s640x400/foody-tra-sua-tocotoco-nguyen-xien-584-636930094771817372.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g28/277192/s640x400/foody-tra-sua-tocotoco-nguyen-xien-128-636894727502723094.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g28/277192/s640x400/foody-tra-sua-tocotoco-nguyen-xien-972-636894727488506735.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g28/277192/s640x400/foody-tra-sua-tocotoco-nguyen-xien-303-636894727491938291.jpg"
+                }
+            ],
+            "description": "           Không Sữa    ",
+            "price": 48000,
+            "cateId": "f0d94a0f-1b95-41ae-b598-70d5cd7da3b1",
+            "createdAt": "2021-06-25T05:52:23.806822Z",
+            "updatedAt": "2021-06-25T05:52:23.806822Z"
+        },
+        {
+            "foodId": "113925d7-54b6-4cbf-b446-a6fbbc1c75ae",
+            "foodName": "Trà Sữa Tocotoco - Ngã Tư Sở",
+            "images": [
+                {
+                    "imageUrl": "https://images.foody.vn/res/g75/747736/prof/s640x400/foody-upload-api-foody-mobile-toco-jpg-180605145241.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g75/747736/s640x400/foody-tra-sua-tocotoco-nga-tu-so-656-636967077966725147.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g75/747736/s640x400/foody-tra-sua-tocotoco-nga-tu-so-324-636911070729886750.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g75/747736/s640x400/foody-tra-sua-tocotoco-nga-tu-so-838-636892114767281565.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g75/747736/s640x400/foody-tra-sua-tocotoco-nga-tu-so-851-636889579945579609.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g75/747736/s640x400/foody-tra-sua-tocotoco-nga-tu-so-606-636889579925417124.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g75/747736/s640x400/foody-tra-sua-tocotoco-nga-tu-so-549-636889579922043883.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g75/747736/s640x400/foody-tra-sua-tocotoco-nga-tu-so-506-636889579888174660.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g75/747736/s640x400/foody-tra-sua-tocotoco-nga-tu-so-477-636812800147023711.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g75/747736/s640x400/foody-tra-sua-tocotoco-nga-tu-so-361-636811139693171576.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g75/747736/s640x400/foody-tra-sua-tocotoco-nga-tu-so-292-636811127417138259.jpg"
+                }
+            ],
+            "description": " ",
+            "price": 38000,
+            "cateId": "f0d94a0f-1b95-41ae-b598-70d5cd7da3b1",
+            "createdAt": "2021-06-25T05:52:23.806508Z",
+            "updatedAt": "2021-06-25T05:52:23.806508Z"
+        },
+        {
+            "foodId": "b67c78d7-8967-43c2-8b69-e0bc80a9ced2",
+            "foodName": "Trà Sữa Tocotoco - Yên Xá",
+            "images": [
+                {
+                    "imageUrl": "https://images.foody.vn/res/g97/961292/prof/s640x400/foody-upload-api-foody-mobile-tocotoco-190925160009.jpg"
+                }
+            ],
+            "description": " Royal Pearl Milk Tea Panda Milk Tea Black Tea Milk Tea Green Tea  ",
+            "price": 46000,
+            "cateId": "f0d94a0f-1b95-41ae-b598-70d5cd7da3b1",
+            "createdAt": "2021-06-25T05:52:23.807055Z",
+            "updatedAt": "2021-06-25T05:52:23.807055Z"
+        },
+        {
+            "foodId": "fa0016c9-ac59-4352-9313-1c53971d07ff",
+            "foodName": "Trà Sữa Tocotoco - Tây Sơn",
+            "images": [
+                {
+                    "imageUrl": "https://images.foody.vn/res/g30/294718/prof/s640x400/foody-mobile-14955920_19255145476-131-636147999005434177.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g30/294718/s640x400/foody-tra-sua-tocotoco-tay-son-306-637385322086026075.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g30/294718/s640x400/foody-tra-sua-tocotoco-tay-son-466-637385322091651545.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g30/294718/s640x400/foody-tra-sua-tocotoco-tay-son-396-637385322092901650.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g30/294718/s640x400/foody-tra-sua-tocotoco-tay-son-462-637339029623449366.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g30/294718/s640x400/foody-tra-sua-tocotoco-tay-son-113-637177844215857321.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g30/294718/s640x400/foody-tra-sua-tocotoco-tay-son-944-637177844201168468.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g30/294718/s640x400/foody-tra-sua-tocotoco-tay-son-622-637177844184196513.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g30/294718/s640x400/foody-tra-sua-tocotoco-tay-son-223-637177844168090679.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g30/294718/s640x400/foody-tra-sua-tocotoco-tay-son-172-637177844148764992.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g30/294718/s640x400/foody-tra-sua-tocotoco-tay-son-512-637177844126668408.jpg"
+                }
+            ],
+            "description": " Milk Tea",
+            "price": 38000,
+            "cateId": "f0d94a0f-1b95-41ae-b598-70d5cd7da3b1",
+            "createdAt": "2021-06-25T05:52:23.819858Z",
+            "updatedAt": "2021-06-25T05:52:23.819858Z"
+        },
+        {
+            "foodId": "7ce53801-a6a1-45e6-9a04-1e14f58bb882",
+            "foodName": "Trà Sữa Mixue - Triều Khúc",
+            "images": [
+                {
+                    "imageUrl": "https://images.foody.vn/res/g78/777085/prof/s640x400/image-79a51e94-210414154201.jpeg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g78/777085/s640x400/foody-tra-sua-mixue-trieu-khuc-707-637506636615958908.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g78/777085/s640x400/foody-tra-sua-mixue-trieu-khuc-520-637192707528695765.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g78/777085/s640x400/foody-tra-sua-mixue-trieu-khuc-522-637106507340179405.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g78/777085/s640x400/foody-tra-sua-mixue-trieu-khuc-151-637106507345492387.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g78/777085/s640x400/foody-tra-sua-mixue-trieu-khuc-770-637106507345804910.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g78/777085/s640x400/foody-tra-sua-mixue-trieu-khuc-572-637106507350649105.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g78/777085/s640x400/foody-tra-sua-mixue-trieu-khuc-843-637106507355962086.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g78/777085/s640x400/foody-tra-sua-mixue-trieu-khuc-393-637106507360650007.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g78/777085/s640x400/foody-tra-sua-mixue-trieu-khuc-351-637073586530551165.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g78/777085/s640x400/foody-tra-sua-mixue-trieu-khuc-780-637060802229732903.jpg"
+                }
+            ],
+            "description": " Gồm kem và trân châu đường đen Gồm kem, trà xanh và mứt dâu tây. Các bạn lắc kỹ trước khi uống nhé. Gồm hồng trà và kem Kem + Mứt xoài  Kem + Mứt dâu tây  Kem + socola Gồm trà xanh và kem  Kem + Thạch đào Trà ô long + Kem",
+            "price": 25000,
+            "cateId": "f0d94a0f-1b95-41ae-b598-70d5cd7da3b1",
+            "createdAt": "2021-06-25T05:52:24.106496Z",
+            "updatedAt": "2021-06-25T05:52:24.106496Z"
+        },
+        {
+            "foodId": "63519370-fc1b-43be-97b7-39e8b873546b",
+            "foodName": "The 1989 - Trà Sữa Muối Biển - Hồng Mai",
+            "images": [
+                {
+                    "imageUrl": "https://images.foody.vn/res/g65/646317/prof/s640x400/foody-upload-api-foody-mobile-traf-jpg-181023155349.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g65/646317/s640x400/foody-the-1989-drinks-foods-234-637379336856485604.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g65/646317/s640x400/foody-the-1989-drinks-foods-273-637354291950493212.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g65/646317/s640x400/foody-the-1989-drinks-foods-148-637354291956692695.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g65/646317/s640x400/foody-the-1989-drinks-foods-112-637354291958567853.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g65/646317/s640x400/foody-the-1989-drinks-foods-282-637156523850188413.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g65/646317/s640x400/foody-the-1989-drinks-foods-952-637132091645516285.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g65/646317/s640x400/d4771ab3-9f51-474b-b631-d140fc34f435.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g65/646317/s640x400/decd9dd0-d82f-4ce8-9831-5dd5354b12bf.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g65/646317/s640x400/37b40391-7103-430c-9586-6e8abced4b9e.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g65/646317/s640x400/b453e6d5-be72-442e-a4a4-3a474e896bd6.jpg"
+                }
+            ],
+            "description": "  ",
+            "price": 30000,
+            "cateId": "f0d94a0f-1b95-41ae-b598-70d5cd7da3b1",
+            "createdAt": "2021-06-25T05:52:23.844732Z",
+            "updatedAt": "2021-06-25T05:52:23.844732Z"
+        },
+        {
+            "foodId": "f904e7ce-0552-458f-84f7-fc75e82c7f71",
+            "foodName": "Trà Sữa Mixue - 340 Nguyễn Trãi",
+            "images": [
+                {
+                    "imageUrl": "https://images.foody.vn/res/g92/911348/prof/s640x400/image-5fe11614-210414154202.jpeg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g92/911348/s640x400/foody-tra-sua-mixue-340-nguyen-trai-897-637029716473309410.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g92/911348/s640x400/foody-tra-sua-mixue-340-nguyen-trai-299-637011676250830163.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g92/911348/s640x400/foody-tra-sua-mixue-340-nguyen-trai-615-637011676250205113.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g92/911348/s640x400/foody-tra-sua-mixue-340-nguyen-trai-263-637123809273920808.jpg"
+                }
+            ],
+            "description": " Gồm kem và trân châu đường đen Gồm kem, trà xanh và mứt dâu tây. Các bạn lắc kỹ trước khi uống nhé. Kem + Mứt xoài  Kem + socola Gồm hồng trà và kem Gồm trà xanh và kem Kem + Mứt dâu tây  Kem + Thạch đào Trà ô long + Kem",
+            "price": 25000,
+            "cateId": "f0d94a0f-1b95-41ae-b598-70d5cd7da3b1",
+            "createdAt": "2021-06-25T05:52:23.845695Z",
+            "updatedAt": "2021-06-25T05:52:23.845695Z"
+        },
+        {
+            "foodId": "17f58b49-fe98-4f7e-b865-e293b5464a34",
+            "foodName": "Trà Sữa Tocotoco - 30 Trần Phú",
+            "images": [
+                {
+                    "imageUrl": "https://images.foody.vn/res/g94/931858/prof/s640x400/foody-upload-api-foody-mobile-ava12-190620154040.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g94/931858/s640x400/foody-tra-sua-tocotoco-tran-phu-333-637264638698908926.jpeg"
+                }
+            ],
+            "description": "   Sữa chua dâu tằm, cảm nhận được vị chua ngọt hơi lên men của mứt dâu tằm xen lẫn vị chua thanh của sữa chua và ngậy của cremer đặc. Trải nghiệm cùng topping Trân châu hoàng kim và Trân châu  sợi . Sữa chua dẻo mát lạnh, vị chua hài hoà , hương thơm tự nhiên của sữa chua lên men . Sữa chua dẻo, mát lạnh, vị chua hài hoà hương thơm tự nhiên của sữa chua lên men. Đặc biệt sự kết hợp của mứt dâu tằm với quả dâu tằm dẻo dai thơm ngon và hạt dẻ bùi bùi đem đến sự trải nghiệm thú vị.",
+            "price": 49000,
+            "cateId": "f0d94a0f-1b95-41ae-b598-70d5cd7da3b1",
+            "createdAt": "2021-06-25T05:52:23.844019Z",
+            "updatedAt": "2021-06-25T05:52:23.844019Z"
+        },
+        {
+            "foodId": "75afc126-7d55-49aa-a381-d49a4931334f",
+            "foodName": "The 1989 - Trà Sữa Muối Biển - Tân Mai",
+            "images": [
+                {
+                    "imageUrl": "https://images.foody.vn/res/g89/888197/prof/s640x400/foody-upload-api-foody-mobile-2-190218164006.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g89/888197/s640x400/foody-the-1989-vietnam-milktea-tan-mai-170-636867069619768712.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g89/888197/s640x400/foody-the-1989-vietnam-milktea-tan-mai-195-637094319358904040.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g89/888197/s640x400/foody-the-1989-vietnam-milktea-tan-mai-672-636998317608315364.jpg"
+                }
+            ],
+            "description": "  ",
+            "price": 30000,
+            "cateId": "f0d94a0f-1b95-41ae-b598-70d5cd7da3b1",
+            "createdAt": "2021-06-25T05:52:23.848141Z",
+            "updatedAt": "2021-06-25T05:52:23.848141Z"
+        },
+        {
+            "foodId": "6c3c5ad3-1d1f-4106-8c00-d0d383bc2828",
+            "foodName": "Trà Sữa Tocotoco - Hồ Tùng Mậu",
+            "images": [
+                {
+                    "imageUrl": "https://images.foody.vn/res/g18/172294/prof/s640x400/image-51b4edd1-210113164530.jpeg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g18/172294/s640x400/foody-tra-sua-tocotoco-ho-tung-mau-270-637073581369803348.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g18/172294/s640x400/foody-tra-sua-tocotoco-ho-tung-mau-351-636996035395955575.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g18/172294/s640x400/foody-tra-sua-tocotoco-ho-tung-mau-332-636986435170323781.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g18/172294/s640x400/foody-tra-sua-tocotoco-ho-tung-mau-541-636895709447225608.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g18/172294/s640x400/foody-tra-sua-tocotoco-ho-tung-mau-601-636895709443962471.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g18/172294/s640x400/foody-tra-sua-tocotoco-ho-tung-mau-702-636895709428934081.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g18/172294/s640x400/foody-tra-sua-tocotoco-ho-tung-mau-580-636895709428904054.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g18/172294/s640x400/foody-tra-sua-tocotoco-ho-tung-mau-608-636895709433829073.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g18/172294/s640x400/foody-tra-sua-tocotoco-ho-tung-mau-743-636895709425751026.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g18/172294/s640x400/foody-tra-sua-tocotoco-ho-tung-mau-788-636835723442348887.jpg"
+                }
+            ],
+            "description": " ",
+            "price": 104000,
+            "cateId": "f0d94a0f-1b95-41ae-b598-70d5cd7da3b1",
+            "createdAt": "2021-06-25T05:52:23.854655Z",
+            "updatedAt": "2021-06-25T05:52:23.854655Z"
+        },
+        {
+            "foodId": "da4108da-a8c7-4f06-8611-e4ae60a4301b",
+            "foodName": "Trà Sữa Tocotoco - Chùa Láng",
+            "images": [
+                {
+                    "imageUrl": "https://images.foody.vn/res/g96/958416/prof/s640x400/foody-upload-api-foody-mobile-foody-upload-api-foo-190919105421.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g96/958416/s640x400/foody-tra-sua-tocotoco-chua-lang-181-637207830013206492.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g96/958416/s640x400/foody-tra-sua-tocotoco-chua-lang-140-637207830014769144.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g96/958416/s640x400/foody-tra-sua-tocotoco-chua-lang-708-637207830015394195.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g96/958416/s640x400/foody-tra-sua-tocotoco-chua-lang-126-637207830015550460.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g96/958416/s640x400/foody-tra-sua-tocotoco-chua-lang-499-637207830027582801.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g96/958416/s640x400/foody-tra-sua-tocotoco-chua-lang-164-637207830035094072.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g96/958416/s640x400/foody-tra-sua-tocotoco-chua-lang-590-637207830038375615.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g96/958416/s640x400/foody-tra-sua-tocotoco-chua-lang-859-637227353583105760.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g96/958416/s640x400/foody-tra-sua-tocotoco-chua-lang-854-637072491367398282.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g96/958416/s640x400/foody-tra-sua-tocotoco-chua-lang-156-637055630726401354.jpg"
+                }
+            ],
+            "description": "     ",
+            "price": 96000,
+            "cateId": "f0d94a0f-1b95-41ae-b598-70d5cd7da3b1",
+            "createdAt": "2021-06-25T05:52:23.847889Z",
+            "updatedAt": "2021-06-25T05:52:23.847889Z"
+        },
+        {
+            "foodId": "a07b8dff-e440-439e-bd57-ad8c705cd3ba",
+            "foodName": "Tiger Sugar Delivery - Đường Nâu Sữa Đài Loan - Vĩnh Hưng",
+            "images": [
+                {
+                    "imageUrl": "https://images.foody.vn/res/g94/933575/prof/s640x400/foody-upload-api-foody-mobile-img_7714-191202170224.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g94/933575/s640x400/foody-tiger-sugar-duong-nau-sua-dai-loan-vinh-hung-745-637236288094768347.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g94/933575/s640x400/foody-tiger-sugar-duong-nau-sua-dai-loan-vinh-hung-501-637236288094768347.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g94/933575/s640x400/foody-tiger-sugar-duong-nau-sua-dai-loan-vinh-hung-982-637236288094768347.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g94/933575/s640x400/foody-tiger-sugar-duong-nau-sua-dai-loan-vinh-hung-661-637137647823570317.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g94/933575/s640x400/foody-tiger-sugar-duong-nau-sua-dai-loan-vinh-hung-198-637137647826695605.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g94/933575/s640x400/foody-tiger-sugar-duong-nau-sua-dai-loan-vinh-hung-136-637134341923885657.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g94/933575/s640x400/foody-tiger-sugar-duong-nau-sua-dai-loan-vinh-hung-352-637134341915759908.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g94/933575/s640x400/foody-tiger-sugar-duong-nau-sua-dai-loan-vinh-hung-353-637134341908310281.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g94/933575/s640x400/foody-tiger-sugar-duong-nau-sua-dai-loan-vinh-hung-547-637091094491617879.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g94/933575/s640x400/foody-tiger-sugar-duong-nau-sua-dai-loan-vinh-hung-571-636994918541119155.jpg"
+                }
+            ],
+            "description": " ",
+            "price": 29000,
+            "cateId": "f0d94a0f-1b95-41ae-b598-70d5cd7da3b1",
+            "createdAt": "2021-06-25T05:52:24.413806Z",
+            "updatedAt": "2021-06-25T05:52:24.413806Z"
+        },
+        {
+            "foodId": "bd20f3e7-df13-437d-87f1-970237500346",
+            "foodName": "Trà Sữa Tocotoco - Đường Láng",
+            "images": [
+                {
+                    "imageUrl": "https://images.foody.vn/res/g24/237515/prof/s640x400/foody-mobile-13221635_28002530233-202-635993480235534200.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g24/237515/s640x400/foody-tra-sua-tocotoco-cau-giay-642-637305419737659064.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g24/237515/s640x400/foody-tra-sua-tocotoco-cau-giay-119-637305419734377495.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g24/237515/s640x400/foody-tra-sua-tocotoco-cau-giay-925-637077279548541956.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g24/237515/s640x400/foody-tra-sua-tocotoco-cau-giay-879-637077279551823503.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g24/237515/s640x400/foody-tra-sua-tocotoco-cau-giay-231-637077279553386145.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g24/237515/s640x400/foody-tra-sua-tocotoco-cau-giay-434-637073577424889514.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g24/237515/s640x400/foody-tra-sua-tocotoco-cau-giay-597-637066749511629504.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g24/237515/s640x400/foody-tra-sua-tocotoco-cau-giay-827-637066749514754788.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g24/237515/s640x400/foody-tra-sua-tocotoco-cau-giay-618-637063296978118038.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g24/237515/s640x400/foody-tra-sua-tocotoco-cau-giay-924-637063296982962222.jpg"
+                }
+            ],
+            "description": "      ",
+            "price": 49000,
+            "cateId": "f0d94a0f-1b95-41ae-b598-70d5cd7da3b1",
+            "createdAt": "2021-06-25T05:52:24.435714Z",
+            "updatedAt": "2021-06-25T05:52:24.435714Z"
+        },
+        {
+            "foodId": "b1af49fe-c621-4017-8725-18b3b8f042c6",
+            "foodName": "The Alley - Trà Sữa Đài Loan - 48 Trần Phú",
+            "images": [
+                {
+                    "imageUrl": "https://images.foody.vn/res/g89/884783/prof/s640x400/foody-upload-api-foody-mobile-foody-upload-api-foo-190624100541.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g89/884783/s640x400/foody-the-alley-tra-sua-dai-loan-tran-phu-577-637289610249512559.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g89/884783/s640x400/foody-the-alley-tra-sua-dai-loan-tran-phu-682-637289610250137621.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g89/884783/s640x400/foody-the-alley-tra-sua-dai-loan-tran-phu-861-637289610249200030.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g89/884783/s640x400/foody-the-alley-tra-sua-dai-loan-tran-phu-982-637091093587782799.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g89/884783/s640x400/foody-the-alley-tra-sua-dai-loan-tran-phu-140-637091093590908087.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g89/884783/s640x400/foody-the-alley-tra-sua-dai-loan-tran-phu-330-637091093596221081.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g89/884783/s640x400/foody-the-alley-tra-sua-dai-loan-tran-phu-535-637091079314671770.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g89/884783/s640x400/foody-the-alley-tra-sua-dai-loan-tran-phu-910-636907124067432207.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g89/884783/s640x400/foody-the-alley-tra-sua-dai-loan-tran-phu-699-636868263848322172.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g89/884783/s640x400/foody-the-alley-tra-sua-dai-loan-tran-phu-853-636868263852384969.jpg"
+                }
+            ],
+            "description": "      ",
+            "price": 69000,
+            "cateId": "f0d94a0f-1b95-41ae-b598-70d5cd7da3b1",
+            "createdAt": "2021-06-25T05:52:23.908086Z",
+            "updatedAt": "2021-06-25T05:52:23.908086Z"
+        },
+        {
+            "foodId": "c3dda690-4df0-4a74-a602-7a573fa88bb4",
+            "foodName": "Trà Sữa Tocotoco - Đào Tấn",
+            "images": [
+                {
+                    "imageUrl": "https://images.foody.vn/res/g66/655357/prof/s640x400/image-acd9bde4-210113164533.jpeg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g66/655357/s640x400/foody-tra-sua-tocotoco-dao-tan-575-636993486649811196.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g66/655357/s640x400/foody-tra-sua-tocotoco-dao-tan-517-636993486655436727.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g66/655357/s640x400/foody-tra-sua-tocotoco-dao-tan-572-636993486660572526.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g66/655357/s640x400/foody-tra-sua-tocotoco-dao-tan-875-636983887199321298.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g66/655357/s640x400/foody-tra-sua-tocotoco-dao-tan-991-636983887204419369.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g66/655357/s640x400/foody-tra-sua-tocotoco-dao-tan-450-636983887279083015.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g66/655357/s640x400/foody-checkin-tra-sua-tocotoco-dao-tan-621-636887135426631659.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g66/655357/s640x400/foody-tra-sua-tocotoco-dao-tan-473-636690863185022740.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g66/655357/s640x400/foody-tra-sua-tocotoco-dao-tan-379-636690863180223882.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g66/655357/s640x400/foody-tra-sua-tocotoco-dao-tan-960-636510449273201078.jpg"
+                }
+            ],
+            "description": " ",
+            "price": 104000,
+            "cateId": "f0d94a0f-1b95-41ae-b598-70d5cd7da3b1",
+            "createdAt": "2021-06-25T05:52:23.919774Z",
+            "updatedAt": "2021-06-25T05:52:23.919774Z"
+        },
+        {
+            "foodId": "f9ae4038-e47f-4708-8244-b365923e23d6",
+            "foodName": "Tiger Sugar Delivery - Đường Nâu Sữa Đài Loan - Emerald Mỹ Đình",
+            "images": [
+                {
+                    "imageUrl": "https://images.foody.vn/res/g100/996723/prof/s640x400/foody-upload-api-foody-mobile-foody-upload-api-foo-200103140046.jpg"
+                }
+            ],
+            "description": " ",
+            "price": 29000,
+            "cateId": "f0d94a0f-1b95-41ae-b598-70d5cd7da3b1",
+            "createdAt": "2021-06-25T05:52:23.882854Z",
+            "updatedAt": "2021-06-25T05:52:23.882854Z"
+        },
+        {
+            "foodId": "5f6c1b4a-97d3-4929-b4ca-1c9a26b87039",
+            "foodName": "Trà Sữa Tocotoco - Phố Nhổn",
+            "images": [
+                {
+                    "imageUrl": "https://images.foody.vn/res/g66/652809/prof/s640x400/foody-mobile-2-jpg-711-636281932110336615.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g66/652809/s640x400/foody-tra-sua-tocotoco-pho-nhon-291-636341628726642019.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g66/652809/s640x400/foody-tra-sua-tocotoco-pho-nhon-462-636341628777047820.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g66/652809/s640x400/foody-tra-sua-tocotoco-pho-nhon-858-636341628870879389.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g66/652809/s640x400/foody-tra-sua-tocotoco-pho-nhon-561-636385145175024903.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g66/652809/s640x400/foody-tra-sua-tocotoco-pho-nhon-694-636363618994054239.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g66/652809/s640x400/foody-tra-sua-tocotoco-pho-nhon-873-636335974138351164.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g66/652809/s640x400/foody-tra-sua-tocotoco-pho-nhon-732-636335974146945590.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g66/652809/s640x400/foody-tra-sua-tocotoco-pho-nhon-737-636335974148508212.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g66/652809/s640x400/foody-tra-sua-tocotoco-pho-nhon-916-636333007282891380.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g66/652809/s640x400/foody-tra-sua-tocotoco-pho-nhon-748-636317746792021747.jpg"
+                }
+            ],
+            "description": "                 ",
+            "price": 48000,
+            "cateId": "f0d94a0f-1b95-41ae-b598-70d5cd7da3b1",
+            "createdAt": "2021-06-25T05:52:23.918402Z",
+            "updatedAt": "2021-06-25T05:52:23.918402Z"
+        },
+        {
+            "foodId": "f63b7766-9946-41a7-b354-9dd3f22d9bd2",
+            "foodName": "Tiger Sugar Delivery - Đường Nâu Sữa Đài Loan - Ngọc Lâm",
+            "images": [
+                {
+                    "imageUrl": "https://images.foody.vn/res/g93/927978/prof/s640x400/foody-upload-api-foody-mobile-img_7714-191202170228.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g93/927978/s640x400/foody-tiger-sugar-duong-nau-sua-dai-loan-ngoc-lam-320-637537451146383188.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g93/927978/s640x400/foody-tiger-sugar-duong-nau-sua-dai-loan-ngoc-lam-687-637524639748489399.jpg"
+                }
+            ],
+            "description": " ",
+            "price": 39000,
+            "cateId": "f0d94a0f-1b95-41ae-b598-70d5cd7da3b1",
+            "createdAt": "2021-06-25T05:52:23.917834Z",
+            "updatedAt": "2021-06-25T05:52:23.917834Z"
+        },
+        {
+            "foodId": "0b71039a-340d-46a3-821d-e3005541904c",
+            "foodName": "Trà Sữa Tocotoco - Hoàng Quốc Việt",
+            "images": [
+                {
+                    "imageUrl": "https://images.foody.vn/res/g87/863581/prof/s640x400/foody-upload-api-foody-mobile-toco-3-jpg-181212171414.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g87/863581/s640x400/foody-tra-sua-tocotoco-hoang-quoc-viet-615-636982190142518669.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g87/863581/s640x400/foody-tra-sua-tocotoco-hoang-quoc-viet-296-636982190147685841.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g87/863581/s640x400/foody-tra-sua-tocotoco-hoang-quoc-viet-915-636982190153436400.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g87/863581/s640x400/foody-tra-sua-tocotoco-hoang-quoc-viet-869-636982190139080841.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g87/863581/s640x400/foody-tra-sua-tocotoco-hoang-quoc-viet-501-636982190158749392.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g87/863581/s640x400/foody-tra-sua-tocotoco-hoang-quoc-viet-263-636982190162510389.jpg"
+                }
+            ],
+            "description": " ",
+            "price": 184000,
+            "cateId": "f0d94a0f-1b95-41ae-b598-70d5cd7da3b1",
+            "createdAt": "2021-06-25T05:52:23.913419Z",
+            "updatedAt": "2021-06-25T05:52:23.913419Z"
+        },
+        {
+            "foodId": "6f892e4c-bfd5-4a2b-a283-9f67a43bf4d6",
+            "foodName": "Trà Sữa Pozaa Tea - Yên Xá",
+            "images": [
+                {
+                    "imageUrl": "https://images.foody.vn/res/g79/783811/prof/s640x400/image-a8b25f18-200929151630.jpeg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g79/783811/s640x400/foody-tra-sua-pozaa-tea-yen-xa-263-636944772538662027.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g79/783811/s640x400/47d633e4-fd29-4380-8ce5-c53920166d06.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g79/783811/s640x400/5a7d64fa-9e40-48c1-a028-40c73a7a7cd4.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g79/783811/s640x400/fec1c613-4c2e-4223-aff4-66bd74b6e207.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g79/783811/s640x400/959498f4-7d5f-496b-8479-a136f02e4e14.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g79/783811/s640x400/1aba5fff-b70c-4a2e-820d-1d24b5bc01f7.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g79/783811/s640x400/bcdb965f-1fc7-4c25-b897-32f63781286d.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g79/783811/s640x400/7bb5f14b-d55b-4a00-b089-29583dc49779.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g79/783811/s640x400/f77700b2-3a35-41ad-9045-bad8ae60890f.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g79/783811/s640x400/foody-tra-sua-pozaa-tea-yen-xa-205-636932048993153721.jpg"
+                }
+            ],
+            "description": "  ",
+            "price": 35000,
+            "cateId": "f0d94a0f-1b95-41ae-b598-70d5cd7da3b1",
+            "createdAt": "2021-06-25T05:52:23.87197Z",
+            "updatedAt": "2021-06-25T05:52:23.87197Z"
+        },
+        {
+            "foodId": "c0289e70-59d8-4108-b8ee-260d94d35715",
+            "foodName": "Trà Sữa Mixue - Dương Quảng Hàm",
+            "images": [
+                {
+                    "imageUrl": "https://images.foody.vn/res/g92/915026/prof/s640x400/image-8847e606-210414154202.jpeg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g92/915026/s640x400/foody-tra-sua-mixue-duong-quang-ham-546-636960700784622483.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g92/915026/s640x400/foody-tra-sua-mixue-duong-quang-ham-601-636960700789622951.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g92/915026/s640x400/foody-tra-sua-mixue-duong-quang-ham-900-637013810331061081.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g92/915026/s640x400/foody-tra-sua-mixue-duong-quang-ham-904-636960700791341855.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g92/915026/s640x400/foody-tra-sua-mixue-duong-quang-ham-723-636960700795092203.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g92/915026/s640x400/foody-tra-sua-mixue-duong-quang-ham-645-636960700790404273.jpg"
+                }
+            ],
+            "description": " Gồm kem và trân châu đường đen Gồm kem, trà xanh và mứt dâu tây. Các bạn lắc kỹ trước khi uống nhé. Gồm hồng trà và kem Gồm trà xanh và kem Kem + Mứt xoài  Kem + Mứt dâu tây  Kem + socola Kem + Thạch đào Kem tươi với thạch lô hội Trà ô long + Kem",
+            "price": 25000,
+            "cateId": "f0d94a0f-1b95-41ae-b598-70d5cd7da3b1",
+            "createdAt": "2021-06-25T05:52:23.921436Z",
+            "updatedAt": "2021-06-25T05:52:23.921436Z"
+        },
+        {
+            "foodId": "ef03590f-f358-488d-a210-989c11cc149d",
+            "foodName": "Trà Sữa 172 - Triệu Việt Vương",
+            "images": [
+                {
+                    "imageUrl": "https://images.foody.vn/res/g8/77602/prof/s640x400/foody-mobile-trs2-jpg-939-635745591317519134.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g8/77602/s640x400/foody-s-611-635796433285284811.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g8/77602/s640x400/foody-s-641-635796433286847460.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g8/77602/s640x400/foody-s-272-635796433288566317.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g8/77602/s640x400/foody-s-943-635796433289972728.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g8/77602/s640x400/foody-s-177-635796433274346447.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g8/77602/s640x400/foody-s-363-635796433276221611.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g8/77602/s640x400/foody-s-848-635796433283253429.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g8/77602/s640x400/foody-s-662-635796433264189385.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g8/77602/s640x400/foody-s-265-635796433265908286.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g8/77602/s640x400/foody-s-684-635796433267939673.jpg"
+                }
+            ],
+            "description": " ",
+            "price": 20000,
+            "cateId": "f0d94a0f-1b95-41ae-b598-70d5cd7da3b1",
+            "createdAt": "2021-06-25T05:52:23.928365Z",
+            "updatedAt": "2021-06-25T05:52:23.928365Z"
+        },
+        {
+            "foodId": "574dbe35-33ff-4036-b4f2-330475b33030",
+            "foodName": "Trà Sữa Tocotoco - Khâm Thiên",
+            "images": [
+                {
+                    "imageUrl": "https://images.foody.vn/res/g10/90397/s640x400/foody-tra-sua-tocotoco-kham-thien-652-636721749785105068.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g10/90397/prof/s640x400/image-84de1c0b-210113164530.jpeg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g10/90397/s640x400/foody-tra-sua-tocotoco-kham-thien-906-637283624655467326.jpeg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g10/90397/s640x400/foody-tra-sua-tocotoco-kham-thien-772-637283624647497854.jpeg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g10/90397/s640x400/foody-tra-sua-tocotoco-kham-thien-917-637283624651404458.jpeg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g10/90397/s640x400/foody-tra-sua-tocotoco-kham-thien-322-637077266585680433.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g10/90397/s640x400/foody-checkin-tra-sua-tocotoco-kham-thien-886-636755765128327043.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g10/90397/s640x400/foody-tra-sua-tocotoco-kham-thien-880-636730413895131601.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g10/90397/s640x400/foody-tra-sua-tocotoco-kham-thien-353-636730413896783179.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g10/90397/s640x400/foody-tra-sua-tocotoco-kham-thien-730-636730413900847078.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g10/90397/s640x400/foody-tra-sua-tocotoco-kham-thien-798-636721749759187526.jpg"
+                }
+            ],
+            "description": " ",
+            "price": 104000,
+            "cateId": "f0d94a0f-1b95-41ae-b598-70d5cd7da3b1",
+            "createdAt": "2021-06-25T05:52:24.519344Z",
+            "updatedAt": "2021-06-25T05:52:24.519344Z"
+        },
+        {
+            "foodId": "cb314fd5-bc32-49ee-8f97-028be71a2bec",
+            "foodName": "Trà Sữa Tocotoco - Phố Xốm",
+            "images": [
+                {
+                    "imageUrl": "https://images.foody.vn/res/g92/916986/s640x400/ef4526e6-f9a6-47ce-acaa-d20e51b10b3a.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g92/916986/s640x400/dce87b3f-c0d4-46b4-892a-0a3366d7b44d.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g92/916986/prof/s640x400/foody-upload-api-foody-mobile-tocotoco-pho-xom-200213100818.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g92/916986/s640x400/d502c20b-7032-42b4-968a-589e0bc5f491.jpg"
+                }
+            ],
+            "description": "     Trà Sữa Panda+Trà Sữa Ba Anh Em+Sữa Tươi Trân Châu Đường Hổ+ Matcha Kem Phô Mai+ Socola Kem Phô Mai + Energy-Booster Café (M)",
+            "price": 32000,
+            "cateId": "f0d94a0f-1b95-41ae-b598-70d5cd7da3b1",
+            "createdAt": "2021-06-25T05:52:24.540215Z",
+            "updatedAt": "2021-06-25T05:52:24.540215Z"
+        },
+        {
+            "foodId": "b246a5d0-f83d-4d08-a6d7-b447cb1da12f",
+            "foodName": "The Alley - Trà Sữa Đài Loan - Thái Hà",
+            "images": [
+                {
+                    "imageUrl": "https://images.foody.vn/res/g77/763303/prof/s640x400/foody-upload-api-foody-mobile-foody-upload-api-foo-190624100610.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g77/763303/s640x400/foody-the-alley-tra-sua-dai-loan-thai-ha-399-637235866483429815.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g77/763303/s640x400/foody-the-alley-tra-sua-dai-loan-thai-ha-531-637235866483117270.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g77/763303/s640x400/foody-the-alley-tra-sua-dai-loan-thai-ha-956-637163567399616336.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g77/763303/s640x400/foody-the-alley-tra-sua-dai-loan-thai-ha-194-637147825360668026.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g77/763303/s640x400/foody-the-alley-tra-sua-dai-loan-thai-ha-816-637147825384923380.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g77/763303/s640x400/foody-the-alley-tra-sua-dai-loan-thai-ha-809-637147825412630881.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g77/763303/s640x400/foody-the-alley-tra-sua-dai-loan-thai-ha-245-637147824276410031.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g77/763303/s640x400/foody-the-alley-tra-sua-dai-loan-thai-ha-782-637147824282660647.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g77/763303/s640x400/foody-the-alley-tra-sua-dai-loan-thai-ha-374-637147824268012690.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g77/763303/s640x400/foody-the-alley-tra-sua-dai-loan-thai-ha-694-637147824272856917.jpg"
+                }
+            ],
+            "description": "      ",
+            "price": 69000,
+            "cateId": "f0d94a0f-1b95-41ae-b598-70d5cd7da3b1",
+            "createdAt": "2021-06-25T05:52:23.990856Z",
+            "updatedAt": "2021-06-25T05:52:23.990856Z"
+        },
+        {
+            "foodId": "896767d5-708d-4909-8140-89c984469152",
+            "foodName": "The Alley - Trà Sữa Đài Loan - Khúc Thừa Dụ",
+            "images": [
+                {
+                    "imageUrl": "https://images.foody.vn/res/g80/797909/prof/s640x400/foody-upload-api-foody-mobile-foody-upload-api-foo-190624100557.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g80/797909/s640x400/foody-the-alley-tra-sua-dai-loan-khuc-thua-du-951-637083400041951127.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g80/797909/s640x400/foody-the-alley-tra-sua-dai-loan-tran-dang-ninh-401-636946817059004141.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g80/797909/s640x400/foody-the-alley-tra-sua-dai-loan-tran-dang-ninh-624-636946817051649088.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g80/797909/s640x400/foody-the-alley-tra-sua-dai-loan-tran-dang-ninh-856-636946817052117884.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g80/797909/s640x400/foody-the-alley-tra-sua-dai-loan-tran-dang-ninh-194-636946817052117884.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g80/797909/s640x400/foody-the-alley-tra-sua-dai-loan-tran-dang-ninh-930-636892413361768871.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g80/797909/s640x400/foody-the-alley-tra-sua-dai-loan-tran-dang-ninh-463-636891128353477028.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g80/797909/s640x400/foody-the-alley-tra-sua-dai-loan-tran-dang-ninh-571-636854222414540397.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g80/797909/s640x400/foody-the-alley-tra-sua-dai-loan-tran-dang-ninh-404-636844620414707072.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g80/797909/s640x400/foody-the-alley-tra-sua-dai-loan-tran-dang-ninh-812-636844617741009398.jpg"
+                }
+            ],
+            "description": "   ",
+            "price": 72000,
+            "cateId": "f0d94a0f-1b95-41ae-b598-70d5cd7da3b1",
+            "createdAt": "2021-06-25T05:52:24.552447Z",
+            "updatedAt": "2021-06-25T05:52:24.552447Z"
+        },
+        {
+            "foodId": "20461ac6-d70d-4a70-9ea8-c9b63eafa73d",
+            "foodName": "Trà Sữa Tocotoco - Phú Diễn",
+            "images": [
+                {
+                    "imageUrl": "https://images.foody.vn/res/g68/673114/prof/s640x400/foody-mobile-487-jpg-941-636353808214084397.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g68/673114/s640x400/foody-tra-sua-tocotoco-phu-dien-182-637393219597557033.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g68/673114/s640x400/foody-tra-sua-tocotoco-phu-dien-628-637028789122257241.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g68/673114/s640x400/4b790b76-e7cc-4b9d-8076-029cade4c8e7.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g68/673114/s640x400/e5e4bbf0-36fc-4ca0-87f8-614961f9a0a4.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g68/673114/s640x400/2d13de6e-ae9b-4fd5-a2b4-180804b1008c.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g68/673114/s640x400/42b119f3-c777-480f-8e89-20a53b90dc97.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g68/673114/s640x400/ba6535b0-4313-47a8-b120-0ab630e9b2ca.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g68/673114/s640x400/foody-tra-sua-tocotoco-phu-dien-914-636914476635668413.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g68/673114/s640x400/foody-tra-sua-tocotoco-phu-dien-496-636776154701766970.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g68/673114/s640x400/foody-tra-sua-tocotoco-phu-dien-341-636776154705360986.jpg"
+                }
+            ],
+            "description": "   ",
+            "price": 38000,
+            "cateId": "f0d94a0f-1b95-41ae-b598-70d5cd7da3b1",
+            "createdAt": "2021-06-25T05:52:23.958835Z",
+            "updatedAt": "2021-06-25T05:52:23.958835Z"
+        },
+        {
+            "foodId": "b63f2952-f33a-4687-9a51-0a818c6a2368",
+            "foodName": "Trà Sữa Tocotoco - Vũ Tông Phan",
+            "images": [
+                {
+                    "imageUrl": "https://images.foody.vn/res/g95/946437/prof/s640x400/image-87b8e457-210113164526.jpeg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g95/946437/s640x400/foody-tra-sua-tocotoco-vu-tong-phan-271-637107477145947684.jpg"
+                }
+            ],
+            "description": " ",
+            "price": 104000,
+            "cateId": "f0d94a0f-1b95-41ae-b598-70d5cd7da3b1",
+            "createdAt": "2021-06-25T05:52:23.990569Z",
+            "updatedAt": "2021-06-25T05:52:23.990569Z"
+        },
+        {
+            "foodId": "59fcd992-3413-4cab-99ac-ae4bbd45e121",
+            "foodName": "Trà Sữa Tocotoco - 271 Nguyễn Khang",
+            "images": [
+                {
+                    "imageUrl": "https://images.foody.vn/res/g96/950326/s640x400/foody-tra-sua-tocotoco-271-nguyen-khang-950326-948-637021647970146075.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g96/950326/s640x400/foody-tra-sua-tocotoco-271-nguyen-khang-950326-964-637021647974844684.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g96/950326/prof/s640x400/foody-upload-api-foody-mobile-foody-upload-api-foo-191113101008.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g96/950326/s640x400/foody-tra-sua-tocotoco-271-nguyen-khang-950326-728-637021647979688887.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g96/950326/s640x400/foody-tra-sua-tocotoco-271-nguyen-khang-950326-389-637021647984220552.jpg"
+                }
+            ],
+            "description": "          ",
+            "price": 46000,
+            "cateId": "f0d94a0f-1b95-41ae-b598-70d5cd7da3b1",
+            "createdAt": "2021-06-25T05:52:23.994429Z",
+            "updatedAt": "2021-06-25T05:52:23.994429Z"
+        },
+        {
+            "foodId": "5dfe82bd-97db-49c3-9223-9f57a3e5a8c7",
+            "foodName": "Tiger Sugar Delivery - Đường Nâu Sữa Đài Loan - Trung Kính",
+            "images": [
+                {
+                    "imageUrl": "https://images.foody.vn/res/g98/978026/prof/s640x400/foody-upload-api-foody-mobile-img_7714-191202170053.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g98/978026/s640x400/foody-tiger-sugar-delivery-duong-nau-sua-dai-loan-nguyen-khang-957-637317045392153457.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g98/978026/s640x400/foody-tiger-sugar-delivery-duong-nau-sua-dai-loan-nguyen-khang-534-637317045412311535.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g98/978026/s640x400/foody-tiger-sugar-delivery-duong-nau-sua-dai-loan-nguyen-khang-630-637276295051569531.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g98/978026/s640x400/foody-tiger-sugar-delivery-duong-nau-sua-dai-loan-nguyen-khang-306-637276295015493022.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g98/978026/s640x400/foody-tiger-sugar-delivery-duong-nau-sua-dai-loan-nguyen-khang-333-637276294987698567.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g98/978026/s640x400/foody-tiger-sugar-delivery-duong-nau-sua-dai-loan-nguyen-khang-991-637276294991292638.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g98/978026/s640x400/foody-tiger-sugar-delivery-duong-nau-sua-dai-loan-nguyen-khang-491-637276294994574191.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g98/978026/s640x400/foody-tiger-sugar-delivery-duong-nau-sua-dai-loan-nguyen-khang-139-637193612236887087.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g98/978026/s640x400/foody-tiger-sugar-delivery-duong-nau-sua-dai-loan-nguyen-khang-317-637193612236887087.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g98/978026/s640x400/foody-tiger-sugar-delivery-duong-nau-sua-dai-loan-nguyen-khang-447-637131267899913405.jpg"
+                }
+            ],
+            "description": " ",
+            "price": 29000,
+            "cateId": "f0d94a0f-1b95-41ae-b598-70d5cd7da3b1",
+            "createdAt": "2021-06-25T05:52:24.00344Z",
+            "updatedAt": "2021-06-25T05:52:24.00344Z"
+        },
+        {
+            "foodId": "4b5b38db-66ec-4f97-87cb-634c99717ce8",
+            "foodName": "Trà Sữa Tocotoco - Trần Duy Hưng",
+            "images": [
+                {
+                    "imageUrl": "https://images.foody.vn/res/g71/705606/prof/s640x400/image-86272b73-210113164530.jpeg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g71/705606/s640x400/foody-tra-sua-tocotoco-tran-duy-hung-704-637452553841372557.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g71/705606/s640x400/foody-tra-sua-tocotoco-tran-duy-hung-716-637452553828246367.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g71/705606/s640x400/foody-tra-sua-tocotoco-tran-duy-hung-238-637452553802200905.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g71/705606/s640x400/foody-tra-sua-tocotoco-tran-duy-hung-255-637452553802357169.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g71/705606/s640x400/foody-tra-sua-tocotoco-tran-duy-hung-681-637191448079895042.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g71/705606/s640x400/foody-tra-sua-tocotoco-tran-duy-hung-994-637191448080363836.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g71/705606/s640x400/foody-tra-sua-tocotoco-tran-duy-hung-374-637063419654419082.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g71/705606/s640x400/foody-tra-sua-tocotoco-tran-duy-hung-112-636886908856174474.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g71/705606/s640x400/foody-tra-sua-tocotoco-tran-duy-hung-505-636828250181959048.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g71/705606/s640x400/foody-tra-sua-tocotoco-tran-duy-hung-394-636804895447884181.jpg"
+                }
+            ],
+            "description": " ",
+            "price": 104000,
+            "cateId": "f0d94a0f-1b95-41ae-b598-70d5cd7da3b1",
+            "createdAt": "2021-06-25T05:52:23.99603Z",
+            "updatedAt": "2021-06-25T05:52:23.99603Z"
+        },
+        {
+            "foodId": "30860fdb-1a74-4f31-b7b8-12ff5dcdd093",
+            "foodName": "Trà Sữa Pozaa Tea - Khương Đình",
+            "images": [
+                {
+                    "imageUrl": "https://images.foody.vn/res/g94/935466/prof/s640x400/image-b2eab079-200929151631.jpeg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g94/935466/s640x400/foody-tra-sua-pozaa-tea-khuong-dinh-681-637363955687650416.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g94/935466/s640x400/foody-tra-sua-pozaa-tea-khuong-dinh-344-637259195527000810.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g94/935466/s640x400/foody-tra-sua-pozaa-tea-khuong-dinh-722-637259195515906049.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g94/935466/s640x400/foody-tra-sua-pozaa-tea-khuong-dinh-532-637259195518093752.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g94/935466/s640x400/foody-tra-sua-pozaa-tea-khuong-dinh-850-637259195475182614.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g94/935466/s640x400/foody-tra-sua-pozaa-tea-khuong-dinh-608-637032614933666265.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g94/935466/s640x400/70633502-068b-4d6c-b1cd-2261bf0f70a6.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g94/935466/s640x400/a109052d-bd28-477c-b4ed-8a58fac83816.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g94/935466/s640x400/56b39573-a379-4325-81d2-1c4054398069.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g94/935466/s640x400/acf08102-755b-4578-b000-92ed86917c29.jpg"
+                }
+            ],
+            "description": "                         ",
+            "price": 39000,
+            "cateId": "f0d94a0f-1b95-41ae-b598-70d5cd7da3b1",
+            "createdAt": "2021-06-25T05:52:24.003751Z",
+            "updatedAt": "2021-06-25T05:52:24.003751Z"
+        },
+        {
+            "foodId": "80fd5752-2ca2-4eca-9369-44b0a9fa7456",
+            "foodName": "Tiger Sugar Delivery - Đường Nâu Sữa Đài Loan - Quang Trung",
+            "images": [
+                {
+                    "imageUrl": "https://images.foody.vn/res/g94/939850/prof/s640x400/foody-upload-api-foody-mobile-img_7714-191202170232.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g94/939850/s640x400/foody-tiger-sugar-duong-nau-sua-quang-trung-481-637332926307563107.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g94/939850/s640x400/foody-tiger-sugar-duong-nau-sua-quang-trung-479-637274270676498684.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g94/939850/s640x400/foody-tiger-sugar-duong-nau-sua-quang-trung-653-637274268783714529.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g94/939850/s640x400/foody-tiger-sugar-duong-nau-sua-quang-trung-513-637090173995775206.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g94/939850/s640x400/foody-tiger-sugar-duong-nau-sua-quang-trung-600-637081614872415082.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g94/939850/s640x400/foody-tiger-sugar-duong-nau-sua-quang-trung-446-637081614941171313.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g94/939850/s640x400/foody-tiger-sugar-duong-nau-sua-quang-trung-801-637081615018209554.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g94/939850/s640x400/foody-tiger-sugar-duong-nau-sua-quang-trung-307-636992168787464512.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g94/939850/s640x400/foody-tiger-sugar-duong-nau-sua-quang-trung-924-637090172199180933.jpg"
+                }
+            ],
+            "description": " ",
+            "price": 29000,
+            "cateId": "f0d94a0f-1b95-41ae-b598-70d5cd7da3b1",
+            "createdAt": "2021-06-25T05:52:24.000591Z",
+            "updatedAt": "2021-06-25T05:52:24.000591Z"
+        },
+        {
+            "foodId": "65a8291b-c036-4781-8758-4f6dec3eecf5",
+            "foodName": "Trà Sữa Gong Cha - 貢茶 - Hoàng Đạo Thúy",
+            "images": [
+                {
+                    "imageUrl": "https://images.foody.vn/res/g69/688223/prof/s640x400/beauty-upload-api-image-200805140404.jpeg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g69/688223/s640x400/foody-tra-sua-gong-cha-hoang-dao-thuy-216-637198411166201167.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g69/688223/s640x400/foody-tra-sua-gong-cha-hoang-dao-thuy-352-637198411153272304.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g69/688223/s640x400/foody-tra-sua-gong-cha-hoang-dao-thuy-860-637149952178124884.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g69/688223/s640x400/foody-tra-sua-gong-cha-hoang-dao-thuy-858-637149952183303106.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g69/688223/s640x400/foody-tra-sua-gong-cha-hoang-dao-thuy-245-637149952173057056.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g69/688223/s640x400/foody-tra-sua-gong-cha-hoang-dao-thuy-387-637081642266150415.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g69/688223/s640x400/foody-tra-sua-gong-cha-hoang-dao-thuy-433-637081642329281135.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g69/688223/s640x400/foody-tra-sua-gong-cha-hoang-dao-thuy-313-637081642396474734.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g69/688223/s640x400/foody-tra-sua-gong-cha-hoang-dao-thuy-344-637079074525120173.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g69/688223/s640x400/foody-tra-sua-gong-cha-hoang-dao-thuy-473-637074745718120613.jpg"
+                }
+            ],
+            "description": " ",
+            "price": 47000,
+            "cateId": "f0d94a0f-1b95-41ae-b598-70d5cd7da3b1",
+            "createdAt": "2021-06-25T05:52:24.003978Z",
+            "updatedAt": "2021-06-25T05:52:24.003978Z"
+        },
+        {
+            "foodId": "2895ee68-f44a-4035-9854-cd4bd601789a",
+            "foodName": "Trà Sữa Pozaa Tea - Minh Khai",
+            "images": [
+                {
+                    "imageUrl": "https://images.foody.vn/res/g93/929856/prof/s640x400/image-43044025-200929151630.jpeg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g93/929856/s640x400/foody-tra-sua-pozaa-tea-minh-khai-949-637139431060109189.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g93/929856/s640x400/foody-tra-sua-pozaa-tea-minh-khai-913-637139431064797085.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g93/929856/s640x400/foody-tra-sua-pozaa-tea-minh-khai-162-637139431066515980.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g93/929856/s640x400/foody-tra-sua-pozaa-tea-minh-khai-443-637139431068703664.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g93/929856/s640x400/foody-tra-sua-pozaa-tea-minh-khai-968-637103163070367729.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g93/929856/s640x400/foody-tra-sua-pozaa-tea-minh-khai-154-637459954955678138.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g93/929856/s640x400/foody-tra-sua-pozaa-tea-minh-khai-754-637459954885004133.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g93/929856/s640x400/foody-tra-sua-pozaa-tea-minh-khai-346-637139431062453137.jpg"
+                }
+            ],
+            "description": " ",
+            "price": 39000,
+            "cateId": "f0d94a0f-1b95-41ae-b598-70d5cd7da3b1",
+            "createdAt": "2021-06-25T05:52:24.004148Z",
+            "updatedAt": "2021-06-25T05:52:24.004148Z"
+        },
+        {
+            "foodId": "f47ce1bc-c4a3-4353-83ee-56230d358a77",
+            "foodName": "The Alley - Trà Sữa Đài Loan - Trung Hòa",
+            "images": [
+                {
+                    "imageUrl": "https://images.foody.vn/res/g73/726012/s640x400/foody-the-alley-tra-sua-dai-loan-trung-hoa-660-637219767313198634.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g73/726012/s640x400/foody-the-alley-tra-sua-dai-loan-trung-hoa-573-637219766278493296.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g73/726012/s640x400/foody-the-alley-tra-sua-dai-loan-trung-hoa-314-637193075779485964.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g73/726012/prof/s640x400/foody-upload-api-foody-mobile-alley-jpg-180321161335.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g73/726012/s640x400/foody-the-alley-tra-sua-dai-loan-trung-hoa-507-637371546564892738.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g73/726012/s640x400/foody-the-alley-tra-sua-dai-loan-trung-hoa-951-637371546558631664.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g73/726012/s640x400/foody-the-alley-tra-sua-dai-loan-trung-hoa-685-637321976829167246.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g73/726012/s640x400/foody-the-alley-tra-sua-dai-loan-trung-hoa-299-637321976829010993.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g73/726012/s640x400/foody-the-alley-tra-sua-dai-loan-trung-hoa-439-637274089781045636.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g73/726012/s640x400/foody-the-alley-tra-sua-dai-loan-trung-hoa-552-637236045121616148.jpg"
+                },
+                {
+                    "imageUrl": "https://images.foody.vn/res/g73/726012/s640x400/foody-the-alley-tra-sua-dai-loan-trung-hoa-574-637223017191800888.jpg"
+                }
+            ],
+            "description": "      ",
+            "price": 69000,
+            "cateId": "f0d94a0f-1b95-41ae-b598-70d5cd7da3b1",
+            "createdAt": "2021-06-25T05:52:24.035731Z",
+            "updatedAt": "2021-06-25T05:52:24.035731Z"
+        },
+        {
+            "foodId": "b788e033-0d97-42ee-adae-c2afe475c85c",
+            "foodName": "Đô Đô - Trà Sữa Đồng Giá - Ô Chợ Dừa",
+            "images": [
+                {
+                    "imageUrl": "https://images.foody.vn/res/g108/1076903/prof/s640x400/foody-upload-api-foody-mobile-182000879_5285975117-210506112508.jpg"
+                }
+            ],
+            "description": " Hồng Trà Sữa có sẵn topping trân châu đen. Bạn có thể đổi sang loại topping bằng giá trong chú thích. Lưu ý bảo quản đồ uống trong tủ lạnh có thể làm trân châu không được ngon. Trà Sữa Socola có sẵn topping pudding socola. Bạn có thể đổi sang loại topping bằng giá trong chú thích. Sẽ ngon hơn nếu dùng lạnh. Sữa Tươi Trân Châu Đường Đen có sẵn topping trân châu đen. Bạn có thể đổi sang loại topping bằng giá trong chú thích. Lưu ý bảo quản đồ uống trong tủ lạnh có thể làm trân châu không được ngon. Sữa Dừa Trân Châu có sẵn topping trân châu đen. Bạn có thể đổi sang loại topping bằng giá trong chú thích. Lưu ý bảo quản đồ uống trong tủ lạnh có thể làm trân châu không được ngon. Trà Đào Tươi có sẵn miếng đào tươi và topping thạch thuỷ tinh dai dai giòn giòn. Bạn có thể đổi sang topping bằng giá trong phần chú thích. Sẽ ngon hơn khi uống lạnh. Trà Sữa Matcha có sẵn topping thạch thuỷ tinh dai dai giòn giòn. Bạn có thể đổi sang loại topping bằng giá trong chú thích. Sẽ ngon hơn nếu bạn dùng lạnh.",
+            "price": 25000,
+            "cateId": "f0d94a0f-1b95-41ae-b598-70d5cd7da3b1",
+            "createdAt": "2021-06-25T05:52:24.037643Z",
+            "updatedAt": "2021-06-25T05:52:24.037643Z"
+        }
+    ]
+}
