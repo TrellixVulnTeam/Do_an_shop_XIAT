@@ -1,35 +1,44 @@
 import React from 'react';
+import { Box, Card, CardActions, CardContent, CardMedia, Button, Typography } from '@mui/material';
 import {
     Link
 } from "react-router-dom";
-import Card from '@mui/material/Card';
-import CardActions from '@mui/material/CardActions';
-import CardContent from '@mui/material/CardContent';
-import CardMedia from '@mui/material/CardMedia';
-import Button from '@mui/material/Button';
-import Typography from '@mui/material/Typography';
 
 const Shop = (props) => {
-    return (
-        props.data.map((e, index) => (
-            <Link to={`/shop/${e.title}`}>
-                <Card key={index}>
-                  <CardMedia />//Insert image into component
-                  <CardContent>
-                    <Typography variant="p">/// p h4 ...
-                        {e.title}
-                    </Typography>
-                    <Typography variant="p">
-                        {e.description}
-                    </Typography>
-                  </CardContent>
-                  <CardActions>
-                    <Button size="small">Learn More</Button>
-                  </CardActions>
-                </Card>
-            </Link>
-    ))
-  )
+    // console.log(props.data)
+    if (props.data.length == 0)
+        return (
+            <p>Loading...........</p>
+        )
+    else    
+        // console.log(props.data.data[0].images[0].imageUrl)
+        return (
+            <Box className="allProduct_shop">
+                {
+                    props.data.data.map((e,index) => (
+                        <Link to={`/shop/${e.foodId}`} key={index}>
+                            <Card className="product">
+                                <CardMedia component="img" image={e.images[0].imageUrl} /> {/* Insert image into component */}
+                                <CardContent>
+                                    <Typography variant="p">
+                                        {e.price} Đ
+                                    </Typography>
+                                </CardContent>
+                                <CardContent>
+                                <Typography variant="p">
+                                        {e.foodName}
+                                    </Typography>
+                                </CardContent>
+                                <Button className="button">
+                                    Order now
+                                </Button>
+                            </Card>
+                        </Link>
+                    ))
+                }
+            </Box>
+           
+        )
 };
 
 export default Shop;

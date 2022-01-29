@@ -1,0 +1,15 @@
+.allProduct_shop
+{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    .product
+    {
+        margin: 5%;
+        height: auto;
+        .button
+        {
+            float: right;
+            padding: 0% 15% 5% 0%;
+        }
+    }
+}
