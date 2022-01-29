@@ -1,29 +1,32 @@
-import React, { useEffect } from 'react';
-import { useSelector, useDispatch } from 'react-redux';
+import React from "react"
 import Home from './components/body/home/Home';
-import { getData } from "./features/dataSlice";
-import Shop from './components/body/shop/Shop';
+import Shop from './components/body/shop/Shop'
+import CardProduct from './components/body/shop/CardProduct'
+
 import {
   BrowserRouter as Router,
   Routes,
-  Route
+  Route,
+  Switch
 } from "react-router-dom";
+const data = [
+  {title:"html",description:"This is html"},
+  {title:"php",description:"This is php"},
+  {title:"java",description:"This is java"},
+  {title:"typescript",description:"This is typescript"}
+]
 
+//Using data.json()
 function App() {
-  const dispatch = useDispatch()
-
-  useEffect(() => {
-    dispatch(getData());
-  }, [dispatch]);
-
   return (
     <div className="App">
-      <Router>
+      <Router>  
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="shop/:Id/*" element={<Shop />} />
+          <Route path="/shop" element={<Shop data={data}/>} />
+          <Route path="/shop/:title" element={<CardProduct data={data}/>} />
         </Routes>
-      </Router>,
+      </Router>
     </div>
   );
 } 

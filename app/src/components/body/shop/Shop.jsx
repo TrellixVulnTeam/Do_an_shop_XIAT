@@ -1,24 +1,34 @@
 import React from 'react';
-import { Box } from '@mui/material';
 import {
-    BrowserRouter as Router,
-    Routes,
-    Route
+    Link
 } from "react-router-dom";
-import { useSelector } from 'react-redux';
-//
+import Card from '@mui/material/Card';
+import CardActions from '@mui/material/CardActions';
+import CardContent from '@mui/material/CardContent';
+import CardMedia from '@mui/material/CardMedia';
+import Button from '@mui/material/Button';
+import Typography from '@mui/material/Typography';
 
-import Allproduct from './Allproduct';
-
-const Shop = () => {
-//     const { data } = useSelector((state) => state.data);
-//   console.log(data)
+const Shop = (props) => {
     return (
-      <Box>
-        <Routes>
-            <Route path="/allproduct" element={<Allproduct />} />
-        </Routes>
-      </Box>
+        props.data.map((e, index) => (
+            <Link to={`/shop/${e.title}`}>
+                <Card key={index}>
+                  <CardMedia />//Insert image into component
+                  <CardContent>
+                    <Typography variant="p">/// p h4 ...
+                        {e.title}
+                    </Typography>
+                    <Typography variant="p">
+                        {e.description}
+                    </Typography>
+                  </CardContent>
+                  <CardActions>
+                    <Button size="small">Learn More</Button>
+                  </CardActions>
+                </Card>
+            </Link>
+    ))
   )
 };
 

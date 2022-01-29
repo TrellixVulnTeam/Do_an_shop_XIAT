@@ -1,24 +1,21 @@
 import React from 'react';
-import Card from '@mui/material/Card';
-import CardActions from '@mui/material/CardActions';
-import CardContent from '@mui/material/CardContent';
-import CardMedia from '@mui/material/CardMedia';
-import Button from '@mui/material/Button';
-import Typography from '@mui/material/Typography';
+import { useParams } from 'react-router-dom';
 
-export const CardProduct = () => {
+const CardProduct = (props) => {
   //using props to get data
+  const { title } = useParams()
+    console.log(title)
     return (
-      <Card>
-        <CardMedia />//Insert image into component
-        <CardContent>
-          <Typography variant="h5">/// p h4 ...
-
-          </Typography>
-        </CardContent>
-        <CardActions>
-          <Button size="small">Learn More</Button>
-        </CardActions>
-      </Card>
+      <div>
+         {
+          props.data.filter(e => e.title == title).map(k=> (
+            <p>
+              This is { k.title}
+            </p>
+          ))
+        }
+      </div>
   )
 };
+
+export default CardProduct
