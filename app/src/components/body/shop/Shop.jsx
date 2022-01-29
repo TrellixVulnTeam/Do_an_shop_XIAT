@@ -5,19 +5,19 @@ import {
     Routes,
     Route
 } from "react-router-dom";
-
+import { useSelector } from 'react-redux';
 //
 
 import Allproduct from './Allproduct';
 
 const Shop = () => {
+//     const { data } = useSelector((state) => state.data);
+//   console.log(data)
     return (
       <Box>
-        <Router>
-            <Routes>
-                <Route path="/all-product" element={<Allproduct />} />
-            </Routes>
-        </Router>
+        <Routes>
+            <Route path="/allproduct" element={<Allproduct />} />
+        </Routes>
       </Box>
   )
 };
