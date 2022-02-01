@@ -1,19 +1,21 @@
 import React from 'react';
-import { useParams } from 'react-router-dom';
-
 const CardProduct = (props) => {
-  //using props to get data
-  const { title } = useParams()
-    console.log(title)
+  
+  if (props.data.length == 0)
+        return (
+            <p>Loading...........</p>
+        )
+  else    
+      console.log(props.data.data[0].images[0].imageUrl)
+      return (
+          <div>
+            
+          </div>
+      )
+          
     return (
       <div>
-         {
-          props.data.filter(e => e.title == title).map(k=> (
-            <p>
-              This is { k.title}
-            </p>
-          ))
-        }
+        
       </div>
   )
 };

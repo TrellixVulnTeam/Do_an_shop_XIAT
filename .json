@@ -1,0 +1,15 @@
+pizza[nest1]--->ARRAY
+
+nest1 = [
+    foodId:string,
+    foodName:string,
+    image:[nest2]--->array,
+    description string
+    price Number
+    cateId:
+    createdAt:
+    updatedAt
+]
+nest2 = [
+    imageUrl :string
+]

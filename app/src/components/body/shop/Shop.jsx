@@ -1,24 +1,25 @@
-import React from 'react';
+import React, { useEffect} from 'react';
 import { Box, Card, CardActions, CardContent, CardMedia, Button, Typography } from '@mui/material';
 import {
-    Link
+    Link,
+    Route,
+    Routes,
+    useParams
 } from "react-router-dom";
+import IsLoading from '../isLoading/IsLoading';
+import FoodBranch from './FoodBranch';
+import { getData } from '../../../features/dataSlice';
+import { useDispatch, useSelector } from "react-redux"
 
 const Shop = (props) => {
-    // console.log(props.data)
-    if (props.data.length == 0)
-        return (
-            <p>Loading...........</p>
-        )
-    else    
-        // console.log(props.data.data[0].images[0].imageUrl)
+    console.log(props)
         return (
             <Box className="allProduct_shop">
-                {
+                {/* {
                     props.data.data.map((e,index) => (
                         <Link to={`/shop/${e.foodId}`} key={index}>
                             <Card className="product">
-                                <CardMedia component="img" image={e.images[0].imageUrl} /> {/* Insert image into component */}
+                                <CardMedia component="img" image={e.images[0].imageUrl} />
                                 <CardContent>
                                     <Typography variant="p">
                                         {e.price} Đ
@@ -35,7 +36,7 @@ const Shop = (props) => {
                             </Card>
                         </Link>
                     ))
-                }
+                } */}
             </Box>
            
         )
