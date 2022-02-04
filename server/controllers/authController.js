@@ -52,7 +52,6 @@ const LoginController = async (req, res) => {
 
 }
 
-
 const CheckToken = async (req, res) => {//Kiểm tra token và lấy dữ liệu người dùng
     
     const bearHeader = req.header('Authorization');
@@ -72,7 +71,7 @@ const CheckToken = async (req, res) => {//Kiểm tra token và lấy dữ liệu
                     if (result[0].admin === true) {
                         await User.find({}, (err, alldata) => {
                             let value = alldata
-                            for(let i=0;i<value.length;i++)
+                            for (let i = 0; i < value.length; i++)
                             {
                                 value[i].password = "notpermission";
                             }
@@ -89,7 +88,7 @@ const CheckToken = async (req, res) => {//Kiểm tra token và lấy dữ liệu
         }
     }
     else
-        return res.json({ success: false, msg: "Xác thực access token thất bại!!" })
+        return res.json({ success: false, msg: "Xác thực accessToken thất bại!!" })
 }
 
 //Check refreshToken ---> tạo mới accessToken đã bị expired
@@ -101,7 +100,7 @@ const checkExpiredAccessToken = async (req, res) => {
         const bearerToken = bearer[1];
         const decodeToken = await jwt.verify(bearerToken, process.env.REFRESHKEY)
         if (!decodeToken)
-            return res.json({ success: false, msg: "Refresh token sai định dạng" })
+            return res.json({ success: false, msg: "refreshToken sai định dạng" })
         
         //tạo ra access token mới
         const email = decodeToken.data

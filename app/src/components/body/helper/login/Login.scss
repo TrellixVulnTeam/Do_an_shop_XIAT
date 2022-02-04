@@ -1,0 +1,36 @@
+.LoginForm
+{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    overflow-y: hidden;
+
+    //Variable sass
+    .Form1
+    {
+        background-color: yellow;
+        z-index: -1;
+        @import "./AnimationLogin.scss";
+    }
+    .Form2
+    {
+        padding-top: 6%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        .inputLogin,.buttonLogin
+        {
+         margin-top: 10vh;
+         width: 100%;
+        }
+        .registerText
+        {
+            position: relative;
+            font-size: 1.3vw;
+            top: 5%;
+        }
+    }
+}
+
+

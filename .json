@@ -13,3 +13,20 @@ nest1 = [
 nest2 = [
     imageUrl :string
 ]
+
+
+
+  
+const data = {
+    "pizza": [
+      { "id": 1, "color": "Red" },
+      { "id": 2, "color": "Blue" },
+    ],
+    "friedRice": [
+        { "id": 1, "color": "Red" },
+        { "id": 2, "color": "Blue" }
+    ]
+  }
+  console.log(Object. keys(data)[0])
+
+  get key 

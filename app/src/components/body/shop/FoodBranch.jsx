@@ -7,14 +7,15 @@ import { getData } from '../../../features/dataSlice';
 import { useDispatch,useSelector } from 'react-redux';
 
 const FoodBranch = () => {
-     const dispatch = useDispatch();
-    const { data } = useSelector(state => state.data)
-    console.log(data)
+    //  const dispatch = useDispatch();
+    // const { data } = useSelector(state => state.data)
+    // console.log(data)
 
-    useEffect(() => {   
-      dispatch(getData())
-    }, [dispatch])
+    // useEffect(() => {   
+    //   dispatch(getData())
+    // }, [dispatch])
 
+    console.log("Ok")
         return (
             <Box className="allProduct_shop">
               

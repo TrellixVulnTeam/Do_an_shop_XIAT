@@ -10,13 +10,18 @@ import IsLoading from '../isLoading/IsLoading';
 import FoodBranch from './FoodBranch';
 import { getData } from '../../../features/dataSlice';
 import { useDispatch, useSelector } from "react-redux"
-
 const Shop = (props) => {
-    console.log(props)
+    const data = props.data
+    // if (data.length == 0)
+    // {
+    //     return (
+    //         <IsLoading />
+    //     )
+    // }
         return (
             <Box className="allProduct_shop">
                 {/* {
-                    props.data.data.map((e,index) => (
+                    data.pizza.map((e,index) => (
                         <Link to={`/shop/${e.foodId}`} key={index}>
                             <Card className="product">
                                 <CardMedia component="img" image={e.images[0].imageUrl} />

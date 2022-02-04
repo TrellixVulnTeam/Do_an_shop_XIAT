@@ -1,12 +1,4 @@
 {
-    "listFood":[
-        {"foodName":"cháo" },
-        {"foodName":"cơm rang"},
-        {"foodName":"gà rán"},
-        {"foodName":"mì ý"},
-        {"foodName":"trà sữa"},
-        {"foodName":"pizza"}
-    ],
     "pizza": [
       {
           "foodId": "1bd37393-ae33-46ca-a080-54024149c353",

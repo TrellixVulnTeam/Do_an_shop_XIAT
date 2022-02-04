@@ -30,3 +30,4 @@ const FriedChikens = new mongoose.Schema({
 
 
 module.exports = mongoose.model('friedChickens', FriedChikens)
+

@@ -11,7 +11,7 @@ import CardProduct from './components/body/shop/CardProduct'
 import Footer from "./components/footer/Footer"
 import { getData } from "./features/dataSlice";
 import FoodBranch from "./components/body/shop/FoodBranch";
-
+import Login from "./components/body/helper/login/Login"
 
 function App() {
   const dispatch = useDispatch();
@@ -19,16 +19,18 @@ function App() {
 
   useEffect(() => {
     dispatch(getData())
-  },[])
+  },[dispatch])
 
   return (
     <div className="App">
       <Router>  
         <Routes>
-          <Route path="shop" element={<Shop data={data} />} >
-            <Route path=":slug" element={<FoodBranch data = {data}/>}></Route>
-          </Route>
+          <Route exact path="shop" element={<Shop data={data} />} ></Route>
+          <Route path="/shop/:slug" element={<FoodBranch />}></Route>
+          <Route path="/login" element={<Login />} />
+          <Route path="/" element={<Home />} />
         </Routes>
+          {/* <Footer /> */}
       </Router>
     </div>
   );
