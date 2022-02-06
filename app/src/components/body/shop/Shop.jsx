@@ -10,14 +10,7 @@ import IsLoading from '../isLoading/IsLoading';
 import FoodBranch from './FoodBranch';
 import { getData } from '../../../features/dataSlice';
 import { useDispatch, useSelector } from "react-redux"
-const Shop = (props) => {
-    const data = props.data
-    // if (data.length == 0)
-    // {
-    //     return (
-    //         <IsLoading />
-    //     )
-    // }
+const Shop = () => {
         return (
             <Box className="allProduct_shop">
                 {/* {

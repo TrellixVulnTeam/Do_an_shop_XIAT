@@ -30,3 +30,7 @@ const data = {
   console.log(Object. keys(data)[0])
 
   get key 
+
+
+
+libbrary react-inner-image-zoom

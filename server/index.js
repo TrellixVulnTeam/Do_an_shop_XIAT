@@ -1,8 +1,10 @@
 const express = require("express")
 const app = express()
 app.use(express.json())
-//Ket noi toi mongoose
+const cors = require('cors')
+app.use(cors())
 
+//Connect to mongoose
 const bodyParser = require('body-parser')
 const dotenv = require('dotenv')
 dotenv.config()
@@ -11,9 +13,6 @@ app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: true }))
 DBconnect()
 
-//Su dung cors cho trinh duyet
-const cors = require('cors')
-app.use(cors())
 
 //API
 const authAPI = require("./apis/authAPI")

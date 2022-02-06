@@ -3,7 +3,6 @@ const { generateToken,RefreshToken } = require("../config/generateToken")
 const bcrypt = require('bcrypt')
 const jwt = require('jsonwebtoken')
 
-
 const RegisterController = async(req, res) => {
     const { username, email, password } = req.body  
     const oldUser = await User.findOne({ email })

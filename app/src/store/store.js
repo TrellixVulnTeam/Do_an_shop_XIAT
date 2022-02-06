@@ -1,9 +1,19 @@
 import { configureStore } from "@reduxjs/toolkit"
-import dataReducer from "../features/dataSlice"
+import {
+    dataPizzaReducers, dataSushiReducers,
+    dataPancakeReducers, dataHamburgerReducers,
+    dataCupcakeReducers, dataDumplingsReducers
+} from "../features/dataSlice"
+
 
 export const store = configureStore({
     reducer: {
-        data: dataReducer
+        pizza: dataPizzaReducers,
+        sushi: dataSushiReducers,
+        pancake: dataPancakeReducers,
+        hamburger: dataHamburgerReducers,
+        cupcake: dataCupcakeReducers,
+        dumplings: dataDumplingsReducers
     }
 })
 

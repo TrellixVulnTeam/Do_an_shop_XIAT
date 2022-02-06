@@ -12,12 +12,6 @@ const CardProduct = (props) => {
             
           </div>
       )
-          
-    return (
-      <div>
-        
-      </div>
-  )
 };
 
 export default CardProduct

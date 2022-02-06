@@ -1,32 +1,126 @@
-import { createSlice, createAsyncThunk } from "@reduxjs/toolkit"
+import { createSlice } from "@reduxjs/toolkit"
+import {
+    getDataPizza, getDataSushi, getDataHamburger,
+    getDataPancake,
+    getDataDumplings, getDataCupcake
+} from "./dataCreateAsyncThunk"
+    
 
-export const getData = createAsyncThunk(
-    "product",
-    async () => {
-        return await fetch("data.json").then(
-            (res)=>res.json()
-        )
-    }
-)
-
-const dataSlice = createSlice({
-    name: "data",
-    initialState: {
-        data: [],
-        status:null
-    },
+const dataPizzaSlice = createSlice({
+    name: "pizza",
+    initialState: {},
     extraReducers: {
-        [getData.pending]: (state, action) => {
+        [getDataPizza.pending]: (state, action) => {
             state.status = "loading";
         },
-        [getData.fulfilled]: (state, action) => {
+        [getDataPizza.fulfilled]: (state, action) => {
           state.status = "success";
-          state.data = action.payload;
+          state.pizza = action.payload;
         },
-        [getData.rejected]: (state, action) => {
-          state.status = "failed";
+        [getDataPizza.rejected]: (state, action) => {
+            state.status = "failed";
         },
     }
 })
 
-export default dataSlice.reducer;
+const dataSushiSlice = createSlice({
+    name: "sushi",
+    initialState: {},
+    extraReducers: {
+        [getDataSushi.pending]: (state, action) => {
+            state.status = "loading";
+        },
+        [getDataSushi.fulfilled]: (state, action) => {
+          state.status = "success";
+          state.sushi = action.payload;
+        },
+        [getDataSushi.rejected]: (state, action) => {
+            state.status = "failed";
+        },
+    }
+})
+
+const dataHamburgerSlice = createSlice({
+    name: "sushi",
+    initialState: {},
+    extraReducers: {
+        [getDataHamburger.pending]: (state, action) => {
+            state.status = "loading";
+        },
+        [getDataHamburger.fulfilled]: (state, action) => {
+          state.status = "success";
+          state.sushi = action.payload;
+        },
+        [getDataHamburger.rejected]: (state, action) => {
+            state.status = "failed";
+        },
+    }
+})
+
+const dataPancakeSlice = createSlice({
+    name: "sushi",
+    initialState: {},
+    extraReducers: {
+        [getDataPancake.pending]: (state, action) => {
+            state.status = "loading";
+        },
+        [getDataPancake.fulfilled]: (state, action) => {
+          state.status = "success";
+          state.sushi = action.payload;
+        },
+        [getDataPancake.rejected]: (state, action) => {
+            state.status = "failed";
+        },
+    }
+})
+
+const dataDumplingsSlice = createSlice({
+    name: "sushi",
+    initialState: {},
+    extraReducers: {
+        [getDataDumplings.pending]: (state, action) => {
+            state.status = "loading";
+        },
+        [getDataDumplings.fulfilled]: (state, action) => {
+          state.status = "success";
+          state.sushi = action.payload;
+        },
+        [getDataDumplings.rejected]: (state, action) => {
+            state.status = "failed";
+        },
+    }
+})
+    
+const dataCupcakeSlice = createSlice({
+    name: "sushi",
+    initialState: {},
+    extraReducers: {
+        [getDataCupcake.pending]: (state, action) => {
+            state.status = "loading";
+        },
+        [getDataCupcake.fulfilled]: (state, action) => {
+          state.status = "success";
+          state.sushi = action.payload;
+        },
+        [getDataCupcake.rejected]: (state, action) => {
+            state.status = "failed";
+        },
+    }
+})
+
+
+
+//Reducers
+
+const dataPizzaReducers = dataPizzaSlice.reducer
+const dataSushiReducers = dataSushiSlice.reducer
+const dataHamburgerReducers = dataHamburgerSlice.reducer
+const dataPancakeReducers = dataPancakeSlice.reducer
+const dataDumplingsReducers = dataDumplingsSlice.reducer
+const dataCupcakeReducers = dataCupcakeSlice.reducer
+
+export {
+    dataPizzaReducers, dataSushiReducers,
+    dataPancakeReducers, dataHamburgerReducers,
+    dataCupcakeReducers,dataDumplingsReducers
+};

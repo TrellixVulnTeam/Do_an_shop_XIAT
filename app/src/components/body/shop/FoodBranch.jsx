@@ -1,21 +1,21 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Box, Card, CardActions, CardContent, CardMedia, Button, Typography } from '@mui/material';
 import {
-    Link
+    useParams
 } from "react-router-dom";
+import axios from "axios"
 import { getData } from '../../../features/dataSlice';
-import { useDispatch,useSelector } from 'react-redux';
+import { useDispatch, useSelector } from "react-redux"
 
-const FoodBranch = () => {
-    //  const dispatch = useDispatch();
-    // const { data } = useSelector(state => state.data)
-    // console.log(data)
+const FoodBranch = (props) => {
+    // useEffect(async() => {
+    //     dispatch(getData())
+    // }, [])
 
-    // useEffect(() => {   
-    //   dispatch(getData())
-    // }, [dispatch])
+    // const dispatch = useDispatch()
+    // const data = useSelector(state => state.data.data)
+    // console.log(data) 
 
-    console.log("Ok")
         return (
             <Box className="allProduct_shop">
               
