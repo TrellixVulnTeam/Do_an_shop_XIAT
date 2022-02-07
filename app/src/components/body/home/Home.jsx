@@ -4,21 +4,14 @@ import { Box } from '@mui/material';
 import IsLoading from '../isLoading/IsLoading';
 import Carousel from './Carousel';
 import { useDispatch, useSelector } from "react-redux"
+import DemoProduct from "./DemoProduct"
 
-const Home = (data) => { 
+const Home = () => { 
+  
   return (
     <Box>
-      {/* {
-        dataList.length != 0 ? dataList.map(
-          (e) => (
-            <div>
-                <a href={`shop/${e}`}>{e}</a>
-                <br></br>
-            </div>
-          )
-        ):<></>
-      } */}
       <Carousel />
+      <DemoProduct />
     </Box>
     )
 };

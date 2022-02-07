@@ -1,9 +1,11 @@
 @import "./components/body/shop/shop.scss";
 @import "./components/footer/Footer.scss";
 @import "./components/body/helper/login/Login.scss";
-
+@import "./components/body/home/Home.scss";
+@import "./components//body/smallComponent/SmallComponent.scss";
 *
 {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }

@@ -1,5 +1,5 @@
-const { Chicken, Dumplings, Pizza, Sushi, Pancake, Hamburger,
-    Noodle, Salad, Cupcakes, Spaghetti, Pasta, Steak, Fries, Sandwich
+const { Chicken, Dumplings, Pizza, Sushi, Pancakes, Hamburger,
+    Noodle, Salad, Cupcakes
 } = require('../models/DataProductSchema')
 
 
@@ -19,7 +19,7 @@ const getDataSushi = async(req,res)=>
 }
 const getDataPancake= async(req,res)=>
 {
-    Pancake.find({}, (err, result) => {
+    Pancakes.find({}, (err, result) => {
         if (err) console.log(err)
         res.json({ data: result })
     })
@@ -33,7 +33,7 @@ const getDataHamburger= async(req,res)=>
 }
 const getDataCupcake= async(req,res)=>
 {
-    Cupcake.find({}, (err, result) => {
+    Cupcakes.find({}, (err, result) => {
         if (err) console.log(err)
         res.json({ data: result })
     })
@@ -45,6 +45,29 @@ const getDataDumplings= async(req,res)=>
         res.json({ data: result })
     })
 }
+//
+
+const getDataChicken= async(req,res)=>
+{
+    Chicken.find({}, (err, result) => {
+        if (err) console.log(err)
+        res.json({ data: result })
+    })
+}
+const getDataNoodle= async(req,res)=>
+{
+    Noodle.find({}, (err, result) => {
+        if (err) console.log(err)
+        res.json({ data: result })
+    })
+}
+const getDataSalad= async(req,res)=>
+{
+    Salad.find({}, (err, result) => {
+        if (err) console.log(err)
+        res.json({ data: result })
+    })
+}
 
 module.exports = {
     getDataPizza,
@@ -52,5 +75,8 @@ module.exports = {
     getDataPancake,
     getDataHamburger,
     getDataDumplings,
-    getDataCupcake
+    getDataCupcake,
+    getDataChicken,
+    getDataNoodle,
+    getDataSalad
 }

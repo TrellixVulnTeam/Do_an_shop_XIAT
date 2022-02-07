@@ -52,36 +52,6 @@ const postDataCupcakes = async (req, res) => {
     await newDataCupcakes.save()
 }
 
-const postDataSpaghetti = async (req, res) => {
-    const { foodName, images, description, price } = req.body
-    const newDataSpaghetti = new Spaghetti({foodName:foodName,images:images,description:description,price:price})
-    await newDataSpaghetti.save()
-}
-
-const postDataPasta = async (req, res) => {
-    const { foodName, images, description, price } = req.body
-    const newDataPasta = new Pasta({foodName:foodName,images:images,description:description,price:price})
-    await newDataPasta.save()
-}
-
-const postDataSteak = async (req, res) => {
-    const { foodName, images, description, price } = req.body
-    const newDataSteak = new Steak({foodName:foodName,images:images,description:description,price:price})
-    await newDataSteak.save()
-}
-
-const postDataFries = async (req, res) => {
-    const { foodName, images, description, price } = req.body
-    const newDataFries = new Fries({foodName:foodName,images:images,description:description,price:price})
-    await newDataFries.save()
-}
-
-const postDataSandwich = async (req, res) => {
-    const { foodName, images, description, price } = req.body
-    const newDataSandwich = new Sandwich({foodName:foodName,images:images,description:description,price:price})
-    await newDataSandwich.save()
-}
-
 const postDataHamburger = async (req, res) => {
     const { foodName, images, description, price } = req.body
     const newDataHamburger = new Hamburger({foodName:foodName,images:images,description:description,price:price})
@@ -91,8 +61,6 @@ const postDataHamburger = async (req, res) => {
 module.exports = {
     postDataPizza, postDataSushi, postDataPancake, postDataDumplings,
     postDataNoodle, postDataChicken, postDataSalad,postDataHamburger,
-    postDataCupcakes, postDataSpaghetti,
-    postDataPasta, postDataSteak,
-    postDataFries,
-    postDataSandwich  
+    postDataCupcakes,
 }
+

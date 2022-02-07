@@ -1,0 +1,53 @@
+.childElementCard
+{
+     margin: 5%;
+    .imageCard
+    {
+        object-fit: cover;
+        min-height: 40vh;
+        max-height: 40vh;
+        max-width: 40vw;
+        min-width: 40vw;
+    }
+    .hoverImageCard
+    {
+        // height: 40%;//////////////////////////////////////When uninstall aos library
+        // width: 30vw;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,.62);
+        position: absolute;
+        justify-content: center;
+        animation-name: hoverImageCardAnimation;
+        animation-duration: 1s;
+        transition: 1s;
+        .hoverButton
+        {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%);
+            box-shadow: 0 0.5em 0.5em -0.4em black;
+            color: aqua;
+        }
+        .textNameFood
+        {
+            color: rgba(255,255,255, 0.7);
+        }
+    }
+    .dispayNone
+    {
+        display:none;
+    }
+    @keyframes hoverImageCardAnimation
+    {
+        0%
+        {
+            transform: translate(0%,-5%);
+        }
+        100%
+        {
+            transform: translate(0%,0%);
+        }
+    }
+}

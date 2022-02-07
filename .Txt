@@ -1,0 +1,10 @@
+Object.keys(data)
+Object.entries()
+
+//Add element into object
+const obj = {}
+obj[1] = "Huydepzai"
+console.log(obj)
+
+// 5array--->1 array
+const array5 = array4.concat(array3.concat(array1.concat(array2)));

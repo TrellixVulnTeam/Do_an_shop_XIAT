@@ -1,0 +1,17 @@
+.Form_Check_Infor {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+  .cardForm {
+    width: 50%;
+    height: 70%;
+    .element1Card {
+      .imageCard {
+        object-fit: cover;
+        width: 30%;
+        height: 20%;
+      }
+    }
+  }
+}
