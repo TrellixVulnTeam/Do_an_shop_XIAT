@@ -35,26 +35,38 @@ const RegisterController = async (req, res) => {
 
 const LoginController = async (req, res) => {
   const { email, password } = req.body;
+  const ERROR_PASSWORD = [];
+  const ERROR_EMAIL = [];
   const oldUser = await User.findOne({ email });
-  const checkPassword = await bcrypt.compare(password, oldUser.password);
-  if (!email || !password)
-    res.json({ success: false, msg: "You must fill in the field !!" });
-  if (!oldUser) res.json({ success: false, msg: "Email already exits" });
-  if (!checkPassword) res.json({ success: false, msg: "Password is wrong" });
-
-  //Check expiredTime refreshToken---->create new refreshToken(expired)
-  //Check server Side
-  
-  //accessToken
-
-  const accessToken = generateToken(email);
-  if (accessToken)
-    res.json({
+  if (oldUser !== null && oldUser !== undefined) {
+    const checkPassword = await bcrypt.compare(password, oldUser.password);
+    if (!checkPassword) {
+      ERROR_PASSWORD.push("Password is wrong");
+    }
+  }
+  if (!/^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$/.test(email)) {
+    ERROR_EMAIL.push("Email is invalid !");
+  }
+  if (password.length < 8) {
+    ERROR_PASSWORD.push("Your password must be more 8 character !");
+  }
+  if (!oldUser) {
+    ERROR_EMAIL.push("Email does not exist");
+  }
+  if (ERROR_EMAIL.length == 0 && ERROR_PASSWORD.length == 0) {
+    const accessToken = generateToken(email);
+    res.status(200).json({
       success: true,
       accessToken: accessToken,
       msg: "Access Token is created !",
     });
-  else res.json({ success: false, msg: "Error !! Token is invalid " });
+  } else if (ERROR_PASSWORD.length > 0 || ERROR_PASSWORD > 0) {
+    res.status(200).json({
+      success: false,
+      err_password: ERROR_PASSWORD,
+      err_email: ERROR_EMAIL,
+    });
+  }
 };
 
 const CheckToken = async (req, res) => {
@@ -76,7 +88,7 @@ const CheckToken = async (req, res) => {
             await User.find({}, (err, alldata) => {
               let value = alldata;
               for (let i = 0; i < value.length; i++) {
-                value[i].password = "notpermission";
+                value[i].password = "*****************";
               }
               if (err) res.json({ msg: ` Error: ${err}` });
               else res.json({ data: value });
@@ -95,33 +107,34 @@ const CheckToken = async (req, res) => {
 
 //Check refreshToken ---> create expired access Token
 
+///CheckToken
+
 const checkExpiredAccessToken = async (req, res) => {
   const bearHeader = req.header("Authorization");
   if (typeof bearHeader !== "undefined") {
     const bearer = bearHeader.split(" ");
     const bearerToken = bearer[1];
-    const decodeToken = await jwt.verify(bearerToken, process.env.REFRESHKEY);
-    if (!decodeToken)
-      res.json({ success: false, msg: "RefreshToken is invalid!" });
+    const decodeToken = await jwt.verify(bearerToken, process.env.SECRETKEY);
 
-    //Create new access Token
-    const email = decodeToken.data;
-    const generateToken = (email) => {
-      jwt.sign({ data: decodeToken.data }, process.env.SECRETKEY, {
-        expiresIn: "20s",
+    if (!decodeToken) {
+      res.json({
+        success: false,
+        msg: "Token is valid!",
       });
-    };
-    const accessToken = generateToken(decodeToken.data);
+    }
+
+    const emailUser = decodeToken.data;
+    const newAcessToken = generateToken(emailUser);
     res.json({
       success: true,
-      accessToken: accessToken,
-      msg: "Token is generated !",
+      accessToken: newAcessToken,
+      msg: "New accessToken is generated !",
     });
-  } else
-    res.json({
-      success: false,
-      msg: "Returned AccessToken is invalid",
-    });
+  }
+  req.json({
+    success: false,
+    msg: "Return expired accessToken unsuccessfully !",
+  });
 };
 
 module.exports = {

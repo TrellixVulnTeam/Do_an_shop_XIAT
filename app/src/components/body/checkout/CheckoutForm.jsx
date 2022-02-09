@@ -44,7 +44,7 @@ const CheckoutForm = () => {
           label="Email"
           defaultValue=""
           autoComplete="family-name"
-          variant="standard"
+          variant="outlined"
           {...register("email")}
           className="line_1"
           // error="true"
@@ -56,7 +56,7 @@ const CheckoutForm = () => {
           id="fullName"
           name="fullName"
           label="Full name"
-          variant="standard"
+          variant="outlined"
           {...register("fullName")}
           className="line_2"
         />
@@ -65,7 +65,7 @@ const CheckoutForm = () => {
           id="address"
           name="address"
           label="Address"
-          variant="standard"
+          variant="outlined"
           {...register("adress")}
           className="line_1"
         />
@@ -74,7 +74,7 @@ const CheckoutForm = () => {
           id="phoneNumber"
           name="phoneNumber"
           label="Phone Number"
-          variant="standard"
+          variant="outlined"
           {...register("phoneNumber")}
           className="line_2"
         />

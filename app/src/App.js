@@ -9,6 +9,7 @@ import Dish from "./components/body/shop/Dish";
 import Header from "./components/header/Header";
 import Isloading from "./components/body/isLoading/IsLoading";
 import CheckoutForm from "./components/body/checkout/CheckoutForm";
+import Signup from "./components/body/helper/signup/Signup";
 
 //Action
 
@@ -106,10 +107,10 @@ const App = () => {
             path="/shop/:slug"
             element={<Dish isReady={isReady} />}
           />
-          <Route path="/login" element={<Login />} />
+          <Route exact path="/login" element={<Login />} />
           <Route path="/" element={<Home />} />
-          <Route path="/checkout" element={<CheckoutForm />} />
-          <Route></Route>
+          <Route exact path="/checkout" element={<CheckoutForm />} />
+          <Route exact path="/signup" element={<Signup />} />
         </Routes>
         <Footer />
       </Router>

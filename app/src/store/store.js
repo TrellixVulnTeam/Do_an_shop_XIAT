@@ -1,6 +1,6 @@
 import { configureStore } from "@reduxjs/toolkit";
-//Get data product
 
+//Get data product
 import {
   dataPizzaReducers,
   dataSushiReducers,
@@ -11,10 +11,13 @@ import {
   dataNoodleReducers,
   dataCupcakeReducers,
   dataDumplingsReducers,
-} from "../features/dataSlice";
+} from "../features/dataCreateSlice";
 
 //Handle Click
 import HandleClickReducer from "../features/HandleClickToAppearCheckoutForm";
+
+//User
+
 
 export const store = configureStore({
   reducer: {
@@ -28,5 +31,6 @@ export const store = configureStore({
     salad: dataSaladReducers,
     noodle: dataNoodleReducers,
     handleClick: HandleClickReducer,
+    // login: PostDataLoginReducer,
   },
 });
