@@ -1,6 +1,22 @@
 .sliderProduct
 {
     width:100%;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 33.33% 33.33% 33.33%;
     display: grid;
+}
+.textNameFood
+{
+    color: #007DAEE2;
+    text-align:center;
+    padding-top: 5vh;
+    padding-bottom:1vh;
+}
+
+@media only screen and (max-width: 1000px) {
+    .sliderProduct
+    {
+        width:100%;
+        grid-template-columns: 50% 50%;
+        display: grid;
+    }
 }

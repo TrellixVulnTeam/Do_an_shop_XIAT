@@ -1,0 +1,23 @@
+.checkingForm
+{
+    width: 100%;
+    padding: 13em 0vh 7vh 0vh;
+    display: flex;
+    justify-content: center;
+    .form
+    {
+        width: 50%;
+        .button_form_checkout
+        {
+            margin-top: 5vh;
+        }
+        .line_1
+        {
+            margin-right: 10%;
+        }
+        .line_1,.line_2
+        {
+            width: 45%;
+        }
+    }
+}

@@ -3,9 +3,18 @@
 @import "./components/body/helper/login/Login.scss";
 @import "./components/body/home/Home.scss";
 @import "./components//body/smallComponent/SmallComponent.scss";
-*
-{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+@import "./components/header/Header.scss";
+@import "./components/body/checkout/CheckoutForm.scss";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  clear: both;
+  overflow-x: hidden;
 }
+
+// body
+// {
+//     background-color: blueviolet;
+// }

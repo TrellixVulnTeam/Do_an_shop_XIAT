@@ -1,12 +1,33 @@
-import React from 'react';
-import { Box } from '@mui/material';
+import React from "react";
+import {
+  Box,
+  Card,
+  CardActions,
+  Link,
+  CardContent,
+  CardMedia,
+  Button,
+  Typography,
+} from "@mui/material";
+
+import Cart1 from "./smallComponent/Cart1";
+import LoginComponent1 from "./smallComponent/LoginComponent1";
+import { red } from "@mui/material/colors";
 
 const Header = () => {
-    return (
-        <Box>
-            
-        </Box>
-    )
+  return (
+    <Box className="Header_Component">
+      <Link href="/" underline="none">
+        <img
+          src="https://i.pinimg.com/originals/82/be/d4/82bed479344270067e3d2171379949b3.png"
+          alt=""
+          style={{ objectFit: "cover", maxHeight: "13vh", maxWidth: "13vh" }}
+        />
+      </Link>
+      <Cart1 />
+      <LoginComponent1 />
+    </Box>
+  );
 };
 
-export default Header
+export default Header;

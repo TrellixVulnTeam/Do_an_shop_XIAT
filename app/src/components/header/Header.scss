@@ -1,0 +1,25 @@
+.Header_Component {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 75% 10% 15%;
+  box-shadow: 5px 8px 26px -6px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  position: fixed;
+  overflow-y: hidden;
+  z-index: 999;
+  top: 0;
+  background-color: white;
+  .Card_1 {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    top: 40%;
+  }
+  .button_login_1 {
+    padding: 0;
+    margin: 0;
+    position: relative;
+    top: 40%;
+  }
+}
+

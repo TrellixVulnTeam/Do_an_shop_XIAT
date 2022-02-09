@@ -9,6 +9,7 @@ import {
   Button,
   Typography,
 } from "@mui/material";
+import Isloading from "../isLoading/IsLoading";
 import { useDispatch, useSelector } from "react-redux";
 import {
   getDataPizza,
@@ -21,7 +22,7 @@ import {
   getDataNoodle,
   getDataSalad,
 } from "../../../features/dataCreateAsyncThunk";
-import CardComponent from "../smallComponent/CardComponent";
+import CardComponentHome from "../smallComponent/CardComponentHome";
 
 const DemoProduct = () => {
   const dispatch = useDispatch();
@@ -60,27 +61,40 @@ const DemoProduct = () => {
   }, [dispatch]);
 
   if (!isReady) {
-    return <p>Is loading</p>;
+    return <></>
   }
 
   const demoProduct = [
-    pizza[0],
-    chicken[0],
-    sushi[0],
-    pancake[0],
-    hamburger[0],
-    salad[0],
-    noodle[0],
-    cupcake[0],
-    dumplings[0],
+    { name: "pizza", img: pizza[0] },
+    { name: "chicken", img: chicken[0] },
+    { name: "sushi", img: sushi[0] },
+    { name: "pancake", img: pancake[0] },
+    { name: "hamburger", img: hamburger[0] },
+    { name: "salad", img: salad[0] },
+    { name: "noodle", img: noodle[0] },
+    { name: "cupcake", img: cupcake[0] },
+    { name: "dumplings", img: dumplings[0] },
   ];
-  //CardComponent
+  //CardComponentHome
 
   return (
-    <Box className="sliderProduct">
-      {demoProduct.map((e) => (
-        <CardComponent data={e} />
-      ))}
+    <Box>
+      <Typography
+        gutterBottom
+        variant="h3"
+        component="div"
+        className="textNameFood"
+        style={{
+          fontSize: "3.5vh",
+        }}
+      >
+        Features Dish
+      </Typography>
+      <Box className="sliderProduct">
+        {demoProduct.map((e, index,name) => (
+          <CardComponentHome data={e} key={index} name={name}/>
+        ))}
+      </Box>
     </Box>
   );
 };

@@ -1,11 +1,15 @@
-import React, { useEffect } from "react";
+import React, { useState, useEffect, useCallback } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Home from "./components/body/home/Home";
 import Shop from "./components/body/shop/Shop";
 import Footer from "./components/footer/Footer";
-import FoodBranch from "./components/body/shop/DetailProduct";
 import Login from "./components/body/helper/login/Login";
+import Dish from "./components/body/shop/Dish";
+import Header from "./components/header/Header";
+import Isloading from "./components/body/isLoading/IsLoading";
+import CheckoutForm from "./components/body/checkout/CheckoutForm";
+
 //Action
 
 import {
@@ -57,7 +61,7 @@ const App = () => {
   }, [dispatch]);
 
   if (!isReady) {
-    return <p>Is loading</p>;
+    return <Isloading />;
   }
 
   const demoProduct = [
@@ -74,6 +78,7 @@ const App = () => {
 
   //pizza chicken sushi pancake hamburger salad noodle cupcake dumplings
 
+  //Array
   const allData = pizza.concat(
     chicken.concat(
       sushi.concat(
@@ -89,20 +94,24 @@ const App = () => {
   return (
     <div className="App">
       <Router>
+        <Header />
         <Routes>
           <Route
             exact
             path="shop"
             element={<Shop allData={allData} isReady={isReady} />}
-          ></Route>
+          />
           <Route
-            path="/product/:slug"
-            element={<FoodBranch allData={allData} isReady={isReady} />}
-          ></Route>
+            exact
+            path="/shop/:slug"
+            element={<Dish isReady={isReady} />}
+          />
           <Route path="/login" element={<Login />} />
           <Route path="/" element={<Home />} />
+          <Route path="/checkout" element={<CheckoutForm />} />
+          <Route></Route>
         </Routes>
-        {/* <Footer /> */}
+        <Footer />
       </Router>
     </div>
   );

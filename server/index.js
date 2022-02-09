@@ -1,23 +1,26 @@
-const express = require("express")
-const app = express()
-app.use(express.json())
-const cors = require('cors')
-app.use(cors())
+const express = require("express");
+const app = express();
+app.use(express.json());
 
-//Connect to mongoose
-const bodyParser = require('body-parser')
-const dotenv = require('dotenv')
-dotenv.config()
-const { DBconnect }= require("./config/dbConnect")
-app.use(bodyParser.json())
-app.use(bodyParser.urlencoded({ extended: true }))
-DBconnect()
+//Using cors policy for brower
+const cors = require("cors");
+app.use(cors());
 
+const bodyParser = require("body-parser");
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: true }));
+
+//Using environmental variables
+const dotenv = require("dotenv");
+dotenv.config();
 
 //API
-const authAPI = require("./apis/authAPI")
-app.use("/api/auth", authAPI)
-const dataAPI = require("./apis/dataAPI")
-app.use("/api/private", dataAPI)
+const authAPI = require("./apis/authAPI");
+app.use("/api/auth", authAPI);
+const dataAPI = require("./apis/dataAPI");
+app.use("/api/private", dataAPI);
 
-app.listen(process.env.PORT, console.log(`Server dang chay tren cong ${process.env.PORT}`))
+app.listen(
+  process.env.PORT,
+  console.log(`Server is running ${process.env.PORT}`)
+);

@@ -1,12 +1,21 @@
-const mongoose = require('mongoose')
+const mongoose = require("mongoose");
 
-const DBconnect = () => {
-    mongoose.connect(process.env.MONGOURI, {}, err => {
-        if (err) throw err
-        {
-            console.log('Ket noi toi DB!!!')
-        }
-    })
-}
+mongoose.connect(process.env.MONGOURI, {}, (err) => {
+  if (err) throw err;
+  {
+    console.log("Connected to DBProduct!!!");
+  }
+});
 
-module.exports = { DBconnect }
+mongoose.DataaaaUsers = mongoose.createConnection(
+  process.env.MONGOURIUSER,
+  {},
+  (err) => {
+    if (err) throw err;
+    {
+      console.log("Connected to DBUser!!!");
+    }
+  }
+);
+
+module.exports = mongoose;

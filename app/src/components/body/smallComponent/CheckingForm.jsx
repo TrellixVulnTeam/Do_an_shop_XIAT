@@ -8,40 +8,35 @@ import {
   Button,
   Typography,
   Modal,
+  Link,
 } from "@mui/material";
-import { Link, Route, Routes, useParams } from "react-router-dom";
+import { Route, Routes, useParams } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
 import { handleClose } from "../../../features/HandleClickToAppearCheckoutForm";
 
 const Checkingform = () => {
   const dispatch = useDispatch();
+  const testData = useSelector(state=>state)
+  console.log(testData)
   const open = useSelector((state) => state.handleClick.open);
-
   const dataCheckingForm = useSelector((state) => state);
   const dataforForm = dataCheckingForm.handleClick.product.payload;
   if (dataforForm == undefined) return <></>; ///////////Component loading
 
   const HandleClose = () => dispatch(handleClose());
 
-  console.log(dataforForm);
   return (
     <Modal open={open} onClose={HandleClose} className="Form_Check_Infor">
       <Card className="cardForm">
-        <Typography
-          gutterBottom
-          variant="small"
-          component="div"
-          className="test1"
-        >
-          Product successfully added to your shopping cart
-        </Typography>
-        <Box className="element1Card">
+        <Box className="elementCard">
           <CardMedia
             component="img"
             alt="Product is selected"
             className="imageCard"
             image={dataforForm.images[0].imageUrl}
           />
+        </Box>
+        <Box className="elementCard">
           <CardContent>
             <Typography
               gutterBottom
@@ -68,8 +63,11 @@ const Checkingform = () => {
               {dataforForm.price} $
             </Typography>
           </CardContent>
-          <CardActions>
-            <Button>Check out</Button>
+          <CardActions className="Button_CheckingForm">
+            <Link href="/cart" underline="none">
+              <Button>Go to cart</Button>
+            </Link>
+            <Button>Add to cart</Button>
           </CardActions>
         </Box>
       </Card>

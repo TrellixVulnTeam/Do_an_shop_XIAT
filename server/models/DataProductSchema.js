@@ -2,6 +2,7 @@
 const mongoose = require('mongoose')
 
 //Initialize variable for Schemas
+const dataProduct = require("../config/dbConnect")
 
 const reqString = {
     type: String,
@@ -32,15 +33,15 @@ const newSchema = new mongoose.Schema({
     updatedAt: DateNow
 })
 
-const Chicken = mongoose.model('chickens', newSchema)
-const Dumplings = mongoose.model('dumplings', newSchema)
-const Hamburger = mongoose.model('hamburgers', newSchema)
-const Noodle = mongoose.model('noodles', newSchema)
-const Pancakes = mongoose.model('pancakes', newSchema)
-const Cupcakes = mongoose.model('cupcakes', newSchema)
-const Salad = mongoose.model('salads', newSchema)
-const Sushi = mongoose.model('sushis', newSchema)
-const Pizza = mongoose.model('pizzas', newSchema)
+const Chicken = dataProduct.model('chickens', newSchema)
+const Dumplings = dataProduct.model('dumplings', newSchema)
+const Hamburger = dataProduct.model('hamburgers', newSchema)
+const Noodle = dataProduct.model('noodles', newSchema)
+const Pancakes = dataProduct.model('pancakes', newSchema)
+const Cupcakes = dataProduct.model('cupcakes', newSchema)
+const Salad = dataProduct.model('salads', newSchema)
+const Sushi = dataProduct.model('sushis', newSchema)
+const Pizza = dataProduct.model('pizzas', newSchema)
 
 //Export module
 

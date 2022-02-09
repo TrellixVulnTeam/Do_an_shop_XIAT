@@ -7,23 +7,50 @@ import {
   CardMedia,
   Button,
   Typography,
+  Link,
   Modal,
 } from "@mui/material";
-import { Link, Route, Routes, useParams } from "react-router-dom";
-import CardComponent from "../smallComponent/CardComponent";
+import Cookies from 'universal-cookie';
+import { Route, Routes, useParams } from "react-router-dom";
+import CardComponentShop from "../smallComponent/CardComponentShop";
 import Checkingform from "../smallComponent/CheckingForm";
 
 const Shop = ({ allData, isReady }) => {
+  const cookies = new Cookies();
+
+  useEffect(()=>{
+    cookies.set("username=John Doe", "expired=12s",{path:"/"});
+  },[])
+
   if (!isReady) {
-    return <p>Loading.............</p>;
+    return <></>
   }
 
   return (
-    <Box className="AllProductShop">
-      {allData.map((e, index) => (
-        <CardComponent data={e} key={index} />
-      ))}
-      <Checkingform />
+    <Box className="ShopComponent">
+      <Typography
+        gutterBottom
+        variant="h6"
+        component="div"
+        className=""
+        style={{
+          paddingLeft: "3vw",
+          paddingTop: "1vw",
+          outline: "none",
+          color: "black",
+        }}
+      >
+        /
+        <Link href="/shop" underline="none">
+          Shop
+        </Link>
+      </Typography>
+      <Box className="AllProductShop">
+        {allData.map((e, index) => (
+          <CardComponentShop data={e} key={index} />
+        ))}
+        <Checkingform />
+      </Box>
     </Box>
   );
 };

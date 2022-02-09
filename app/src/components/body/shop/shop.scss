@@ -1,6 +1,19 @@
-.AllProductShop
-{
-    width:100%;
+.ShopComponent {
+  padding-top: 10em;
+  .AllProductShop {
+    width: 100%;
     grid-template-columns: auto auto auto;
     display: grid;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .ShopComponent {
+    padding-top: 10em;
+    .AllProductShop {
+      width: 100%;
+      grid-template-columns: auto auto;
+      display: grid;
+    }
+  }
 }
