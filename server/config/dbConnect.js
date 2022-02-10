@@ -18,4 +18,6 @@ mongoose.DataaaaUsers = mongoose.createConnection(
   }
 );
 
-module.exports = mongoose;
+const dataProduct = mongoose
+const connectionUser = mongoose.DataaaaUsers
+module.exports = {dataProduct,connectionUser};

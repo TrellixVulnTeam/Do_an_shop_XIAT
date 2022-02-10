@@ -30,7 +30,6 @@ const CardComponentHome = ({ data }) => {
 
   const classNameChangeColor = toggleClick ? "hoverImageCard" : "dispayNone";
 
-  console.log(data)
   return (
     <Card className="childElementCard">
       <CardMedia

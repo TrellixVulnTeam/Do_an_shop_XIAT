@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
-const connectionUser = require("../config/dbConnect");
+const { connectionUser } = require("../config/dbConnect");
 
-const User = new mongoose.Schema({
+const UserSchema = new mongoose.Schema({
   username: {
     type: String,
     required: true,
@@ -9,7 +9,7 @@ const User = new mongoose.Schema({
   email: {
     type: String,
     required: true,
-    unique: true
+    unique: true,
   },
   admin: {
     type: Boolean,
@@ -30,5 +30,6 @@ const User = new mongoose.Schema({
     default: false,
   },
 });
+const User = connectionUser.model("users", UserSchema);
 
-module.exports = connectionUser.DataaaaUsers.model("users", User);
+module.exports = { User };

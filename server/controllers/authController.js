@@ -1,4 +1,4 @@
-const User = require("../models/UserSchema");
+const { User } = require("../models/UserSchema");
 const { generateToken, RefreshToken } = require("../config/generateToken");
 const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
@@ -70,37 +70,27 @@ const LoginController = async (req, res) => {
 };
 
 const CheckToken = async (req, res) => {
-  //Check token
+  //Check token for returning data
 
   const bearHeader = req.header("Authorization");
   if (typeof bearHeader !== "undefined") {
     const bearer = bearHeader.split(" ");
     const bearerToken = bearer[1];
     const decodeToken = await jwt.verify(bearerToken, process.env.SECRETKEY);
-
-    if (!decodeToken) res.json({ success: false, msg: "Token is invalid" });
-    else {
-      await User.find({ email: decodeToken.data }, async (err, result) => {
-        if (err) res.json("Error : " + err);
-        else {
-          //Authorize
-          if (result[0].admin === true) {
-            await User.find({}, (err, alldata) => {
-              let value = alldata;
-              for (let i = 0; i < value.length; i++) {
-                value[i].password = "*****************";
-              }
-              if (err) res.json({ msg: ` Error: ${err}` });
-              else res.json({ data: value });
-            });
-          } else
-            res.json({
-              success: true,
-              data: result,
-              msg: `You are member`,
-            });
+    if (!decodeToken) {
+      res.json({ success: false, msg: "Token is invalid" });
+    } else {
+      const dataUser = await User.findOne({ email: decodeToken.data }); //dataUser of this token
+      if (dataUser.length == 0) {
+        res.json({ success: false, msg: "Data doesn't exist !!" });
+      } else {
+        if (dataUser.admin) {
+          const dataAdmin = await User.find({});
+          res.json({ dataUser: dataAdmin, dataAdmin: dataUser }); //dataAdmin is alldata-----key
+        } else {
+          res.json({ dataUser: data });
         }
-      });
+      }
     }
   } else res.json({ success: false, msg: "Authorize unsuccessfully!" });
 };
@@ -131,7 +121,7 @@ const checkExpiredAccessToken = async (req, res) => {
       msg: "New accessToken is generated !",
     });
   }
-  req.json({
+  res.json({
     success: false,
     msg: "Return expired accessToken unsuccessfully !",
   });

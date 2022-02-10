@@ -12,9 +12,9 @@ import {
 
 const Logincomponent1 = () => {
   return (
-    <Box className="LoginComponent">
+    <Box className="icon_login">
       <Link href="/login" underline="none">
-        <Button className="button_login_1">Login/Sign up</Button>
+        <Button >Login/Sign up</Button>
       </Link>
     </Box>
   );

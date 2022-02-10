@@ -2,7 +2,7 @@
 const mongoose = require('mongoose')
 
 //Initialize variable for Schemas
-const dataProduct = require("../config/dbConnect")
+const {dataProduct} = require("../config/dbConnect")
 
 const reqString = {
     type: String,

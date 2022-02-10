@@ -12,9 +12,10 @@ import {
 
 import Cart1 from "./smallComponent/Cart1";
 import LoginComponent1 from "./smallComponent/LoginComponent1";
-import { red } from "@mui/material/colors";
+import LoginComponent2 from "./smallComponent/LoginComponent2";
 
-const Header = () => {
+const Header = ({ checkAcessToken }) => {
+  console.log(checkAcessToken);
   return (
     <Box className="Header_Component">
       <Link href="/" underline="none">
@@ -24,8 +25,12 @@ const Header = () => {
           style={{ objectFit: "cover", maxHeight: "13vh", maxWidth: "13vh" }}
         />
       </Link>
-      <Cart1 />
-      <LoginComponent1 />
+      <Box className="Icon_header">
+        <Link href="/cart" underline="none">
+          <Cart1 />
+        </Link>
+        {checkAcessToken ? <LoginComponent2 /> : <LoginComponent1 />}
+      </Box>
     </Box>
   );
 };

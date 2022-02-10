@@ -23,7 +23,6 @@ console.log(data)
 //Go to details
 justify-content: space-between;
 
-
 ///Cookies--->get
 
 import Cookies from 'universal-cookie';
@@ -60,6 +59,31 @@ useEffect(() => {
 const checkTime = jwt.decode(accessToken).exp
 if ((Date.now())-3000> checkTime * 1000)
 {
+
+
+/ headers: { Authorization: 'Bearer ' + accessToken }})
+// .then(res =>
+// dispatch(AddTodo(res.data.data))) 
+
+const headers = {
+  'Content-Type': 'application/json',
+  'Authorization': 'JWT fefege...'
+}
+
+axios.post(Helper.getUserAPI(), data, {
+    headers: headers
+  })
+  .then((response) => {
+    dispatch({
+      type: FOUND_USER,
+      data: response.data[0]
+    })
+  })
+  .catch((error) => {
+    dispatch({
+      type: ERROR_FINDING_USER
+    })
+  })
 
 
 

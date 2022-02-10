@@ -3,10 +3,12 @@ import { Box, Typography, TextField, Button, Paper, Link } from "@mui/material";
 import { useForm } from "react-hook-form";
 import { RequestLogin } from "../../../../store/AxiosLibrary";
 import Cookies from 'universal-cookie';
+import { useNavigate } from "react-router-dom";
 
 const Login = () => {
 
   const cookies = new Cookies();
+  let navigate = useNavigate();
 
   //2--->get Error from server side////3---->save accessToken in cookie
   const [errEmail, setErrEmail] = useState("");
@@ -46,6 +48,15 @@ const Login = () => {
       }
     });
   };
+  //Check acessToken to redirect to "/"
+
+  useEffect(()=>{
+    cookies.get("accessToken")
+    if (cookies.get("accessToken") != undefined) 
+    {
+     navigate("/")
+    }
+  },[])
 
   return (
     <Box className="LoginForm">

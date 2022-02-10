@@ -17,7 +17,7 @@ import {
 import HandleClickReducer from "../features/HandleClickToAppearCheckoutForm";
 
 //User
-
+import getDataUserReducer from "../features/dataUserCreateSlice";
 
 export const store = configureStore({
   reducer: {
@@ -31,6 +31,6 @@ export const store = configureStore({
     salad: dataSaladReducers,
     noodle: dataNoodleReducers,
     handleClick: HandleClickReducer,
-    // login: PostDataLoginReducer,
+    user: getDataUserReducer,
   },
 });

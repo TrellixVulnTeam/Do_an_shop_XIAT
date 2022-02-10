@@ -1,6 +1,8 @@
 import React, { useState, useEffect, useCallback } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import Cookies from "universal-cookie";
+
 import Home from "./components/body/home/Home";
 import Shop from "./components/body/shop/Shop";
 import Footer from "./components/footer/Footer";
@@ -10,8 +12,9 @@ import Header from "./components/header/Header";
 import Isloading from "./components/body/isLoading/IsLoading";
 import CheckoutForm from "./components/body/checkout/CheckoutForm";
 import Signup from "./components/body/helper/signup/Signup";
+import Cart from "./components/body/cart/Cart";
 
-//Action
+//Action---Product
 
 import {
   getDataPizza,
@@ -25,9 +28,19 @@ import {
   getDataSalad,
 } from "./features/dataCreateAsyncThunk";
 
+import {
+  getDataUser,
+  getDataUserPayload,
+} from "./features/dataUserCreateSlice";
+import { Authorization } from "./store/AxiosLibrary";
+///Action ----for User
+
 const App = () => {
   const dispatch = useDispatch();
+  const [checkAcessToken, setCheckAcessToken] = useState(false);
 
+  const cookies = new Cookies();
+  const dataaa = useSelector((state) => state);
   const pizza = useSelector((state) => state.pizza.pizza);
   const chicken = useSelector((state) => state.chicken.chicken);
   const sushi = useSelector((state) => state.sushi.sushi);
@@ -61,23 +74,23 @@ const App = () => {
     await dispatch(getDataSalad());
   }, [dispatch]);
 
+  //Authorize
+  useEffect(async () => {
+    if (cookies.get("accessToken") != undefined) {
+      const headers = { Authorization: "Bearer " + cookies.get("accessToken") };
+      await Authorization({}, { headers: headers }).then((res) => {
+        dispatch(getDataUser(res.data));
+        setCheckAcessToken(true);
+      });
+    } else {
+      setCheckAcessToken(false);
+    }
+  }, [dispatch]);
+  console.log(checkAcessToken);
+
   if (!isReady) {
     return <Isloading />;
   }
-
-  const demoProduct = [
-    pizza[0],
-    chicken[0],
-    sushi[0],
-    pancake[0],
-    hamburger[0],
-    salad[0],
-    noodle[0],
-    cupcake[0],
-    dumplings[0],
-  ];
-
-  //pizza chicken sushi pancake hamburger salad noodle cupcake dumplings
 
   //Array
   const allData = pizza.concat(
@@ -95,7 +108,7 @@ const App = () => {
   return (
     <div className="App">
       <Router>
-        <Header />
+        <Header checkAcessToken={checkAcessToken} />
         <Routes>
           <Route
             exact
@@ -111,6 +124,7 @@ const App = () => {
           <Route path="/" element={<Home />} />
           <Route exact path="/checkout" element={<CheckoutForm />} />
           <Route exact path="/signup" element={<Signup />} />
+          <Route exact path="/cart" element={<Cart />}/>
         </Routes>
         <Footer />
       </Router>

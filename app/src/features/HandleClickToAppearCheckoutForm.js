@@ -17,13 +17,9 @@ export const HandleClickSlice = createSlice({
       state.open = false;
       state.product = {};
     },
-    getDataHandleClickPayload: (state, action) => {
-      state.value += action.payload;
-    },
   },
 });
 
-export const { handleOpen, handleClose, getDataHandleClickPayload } =
-  HandleClickSlice.actions;
+export const { handleOpen, handleClose } = HandleClickSlice.actions;
 
 export default HandleClickSlice.reducer;
