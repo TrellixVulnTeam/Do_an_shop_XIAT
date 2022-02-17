@@ -39,7 +39,7 @@ const Header = ({ checkAcessToken }) => {
           </Link>
         </Box>
         <Box className="Icon_header">
-             {(cart.dataUser.cart.length === 0)?<Cart1 />:<Cart2 />} 
+          {cart.dataUser.cart.length === 0 ? <Cart1 /> : <Cart2 />}
           {checkAcessToken ? <LoginComponent2 /> : <LoginComponent1 />}
         </Box>
       </Box>
