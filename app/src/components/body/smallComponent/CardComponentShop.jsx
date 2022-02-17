@@ -46,12 +46,12 @@ const CardComponentShop = ({ data }) => {
       <CardActions
         onMouseEnter={handleToggleHover}
         onMouseLeave={handleToggleLeave}
+        onClick={() => dispatch(handleOpen(data))}
       >
         <Box className={classNameChangeColor}>
           <Button
             className="hoverButton"
             underline="none"
-            onClick={() => dispatch(handleOpen(data))}
           >
             View
           </Button>

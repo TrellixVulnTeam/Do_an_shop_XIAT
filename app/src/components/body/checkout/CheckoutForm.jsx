@@ -67,7 +67,7 @@ const CheckoutForm = () => {
       PostOrder(obj).then((res) => console.log(res));
       setCallback(true);
       dispatch(handleOpenSuccess());
-      setSuccessForm(true)
+      setSuccessForm(true);
     }
   };
 
@@ -96,9 +96,9 @@ const CheckoutForm = () => {
     subTotal = e.quality * e.price;
   });
 
-  const handleCloseSuccess = ()=>{
-    setSuccessForm(false)
-  }
+  const handleCloseSuccess = () => {
+    setSuccessForm(false);
+  };
 
   return (
     <Box className="checkingForm">
@@ -176,7 +176,7 @@ const CheckoutForm = () => {
           </Box>
         </Box>
       </form>
-      <Successform handleCloseSuccess={handleCloseSuccess}/>
+      <Successform handleCloseSuccess={handleCloseSuccess} />
     </Box>
   );
 };
