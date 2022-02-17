@@ -1,7 +1,8 @@
 import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
-  user: {}
+  user: {},
+  checkLogin: false,
 };
 
 export const getDataUserSlice = createSlice({
@@ -10,9 +11,20 @@ export const getDataUserSlice = createSlice({
   reducers: {
     getDataUser: (state, p) => {
       state.user = p;
+    },
+    checkLoginTrue: (state) => {
+      state.checkLogin = true;
+    },
+    checkLoginFalse: (state) => {
+      state.checkLogin = false;
     }
   },
 });
 
-export const { getDataUser } = getDataUserSlice.actions;
+export const {
+  getDataUser,
+  checkLoginTrue,
+  checkLoginFalse,
+} = getDataUserSlice.actions;
+
 export default getDataUserSlice.reducer;

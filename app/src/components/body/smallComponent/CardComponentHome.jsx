@@ -22,13 +22,6 @@ import {
 } from "../../../features/HandleClickToAppearCheckoutForm";
 
 const CardComponentHome = ({ data }) => {
-  const dispatch = useDispatch();
-
-  const [toggleClick, setToggleClick] = useState(false);
-  const handleToggleHover = () => setToggleClick(true);
-  const handleToggleLeave = () => setToggleClick(false);
-
-  const classNameChangeColor = toggleClick ? "hoverImageCard" : "dispayNone";
 
   return (
     <Card className="childElementCard">

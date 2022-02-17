@@ -19,6 +19,8 @@ const authAPI = require("./apis/authAPI");
 app.use("/api/auth", authAPI);
 const dataAPI = require("./apis/dataAPI");
 app.use("/api/private", dataAPI);
+const methodForUserAPI = require("./apis/UserActionAPI");
+app.use("/api/method", methodForUserAPI);
 
 app.listen(
   process.env.PORT,

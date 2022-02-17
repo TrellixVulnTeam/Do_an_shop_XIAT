@@ -31,7 +31,7 @@ const CardComponentShop = ({ data }) => {
   //     // easing: 'ease-in-sine',
   //     // delay: 10,
   //   });
-  // }, []);
+  // }, []);d2
 
   //dropDown button
   ///////////Function handle event

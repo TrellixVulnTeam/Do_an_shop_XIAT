@@ -1,0 +1,32 @@
+.SuccessForm {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+  max-height: 38%;
+  .form {
+    width: 60%;
+    height: 60%;
+  }
+  .elementCard {
+    padding-top: 10%;
+    width: 100%;
+    .icon_success {
+    font-size: 3em;
+      color: #2edbb3;
+      position: relative;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%,50%);
+    }
+    .text_Success
+    {
+        font-weight: bold;
+    }
+    .text
+    {
+        text-align: center;
+        margin: 10px;
+    }
+  }
+}

@@ -1,7 +1,20 @@
-import React from "react";
-import { Box, Typography, TextField, Button, Paper, Link } from "@mui/material";
+import React, { useState,useEffect } from "react";
+import {
+  Box,
+  Typography,
+  TextField,
+  Button,
+  Paper,
+  Link,
+  bottomNavigationClasses,
+} from "@mui/material";
 import { useForm } from "react-hook-form";
+import { RequestSignup } from "../../../../store/AxiosLibrary";
+import { useNavigate } from "react-router-dom";
+
 const Signup = () => {
+  const navigate = useNavigate();
+  const [signupValue, setSignupValue] = useState(false);
   const {
     register,
     handleSubmit,
@@ -9,8 +22,20 @@ const Signup = () => {
   } = useForm();
 
   const onSubmit = (data) => {
-    console.log(data);
+    RequestSignup(data).then((res) => {
+      if (res.data.success === true) {
+        setSignupValue(true)
+      }
+    });
   };
+
+  useEffect(()=>{
+    if(signupValue===true)
+    {
+      navigate("/login")
+      setSignupValue(false)
+    }
+  })
 
   return (
     <Box className="LoginForm">
@@ -41,7 +66,7 @@ const Signup = () => {
               className="inputLogin"
               defaultValue=""
               fullWidth
-              {...register("userName")}
+              {...register("username")}
               // error="true"
               // helperText="this is error"
             />
@@ -53,6 +78,7 @@ const Signup = () => {
               variant="outlined"
               type="password"
               className="inputLogin"
+              e2
               defaultValue=""
               fullWidth
               {...register("password")}

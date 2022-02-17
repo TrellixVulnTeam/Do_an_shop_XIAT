@@ -26,3 +26,34 @@ useEffect(() => {
     window.removeEventListener("scroll", handleNavigation);
   };
 }, [handleNavigation]);
+
+
+
+
+const { username, email, password } = req.body;
+const oldUser = await User.findOne({ email });
+
+if (!username || !email || !password)
+  res.json({ success: false, msg: "Please fill in the field!" });
+if (password.length < 8)
+  res.json({
+    success: false,
+    msg: "Your password must be more 8 character !",
+  });
+if (!/^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$/.test(email))
+  res.json({ success: false, msg: "Email is invalid !" });
+if (oldUser) res.json({ success: false, msg: "Account already exists !" });
+
+const newRefreshToken = RefreshToken(email);
+bcrypt.hash(password, 12, async (err, hash) => {
+  const hashPassword = hash;
+
+  const newUser = new User({
+    username: username,
+    email: email,
+    password: hashPassword,
+    refresToKen: newRefreshToken,
+  });
+  await newUser.save();
+  res.json({ success: true, msg: "Create account sucessfully !!" });
+});

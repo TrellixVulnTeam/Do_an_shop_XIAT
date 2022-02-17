@@ -1,33 +1,33 @@
 const mongoose = require("mongoose");
 const { connectionUser } = require("../config/dbConnect");
 
+const StringType = { type: String, required: true };
+
 const UserSchema = new mongoose.Schema({
-  username: {
-    type: String,
-    required: true,
-  },
+  username: StringType,
   email: {
     type: String,
     required: true,
     unique: true,
+  },
+  cart: {
+    type: Array,
+    default: [],
+  },
+  order: {
+    type: Array,
+    default: [],
   },
   admin: {
     type: Boolean,
     required: true,
     default: false,
   },
-  password: {
-    type: String,
-    required: true,
-  },
+  password: StringType,
   refresToKen: {
     type: String,
     required: true,
     default: "",
-  },
-  verify: {
-    type: Boolean,
-    default: false,
   },
 });
 const User = connectionUser.model("users", UserSchema);

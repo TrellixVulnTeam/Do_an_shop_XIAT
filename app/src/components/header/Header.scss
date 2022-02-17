@@ -1,7 +1,7 @@
 .Header_Component {
   width: 100%;
   display: grid;
-  grid-template-columns: 75% 10% 15%;
+  grid-template-columns: 75% 5% 10%;
   box-shadow: 5px 8px 26px -6px rgba(0, 0, 0, 0.1);
   box-sizing: border-box;
   position: fixed;
@@ -9,16 +9,32 @@
   z-index: 999;
   top: 0;
   background-color: white;
-  .Card_1 {
+  .Cart_1 {
     position: relative;
     padding: 0;
     margin: 0;
     top: 40%;
   }
+  .Cart_2 {
+    position: relative;
+    margin: 0;
+    top: 40%;
+    .qualityText
+    {
+      background-color: red;
+      position: relative;
+      bottom: 40px;
+      right: 10px;
+      color: white;
+      width: 20px;
+      border-radius: 50%;
+      text-align: center;
+    }
+  }
   .image_Login {
     width: 20%;
     height: 10%;
-  }
+  } 
   .Icon_header
   {
     width: 200%;
@@ -26,6 +42,9 @@
   }
   .icon_login
   {
-    float: right;
+    right: 3vw;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
   }
 }

@@ -1,10 +1,47 @@
-.emptyCart
-{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    img
-    {
-        margin-top: 30vh;
+//--->isLoading---->emptycart
+.emptyCart {
+  margin-top: 30vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+// //Cart
+
+.cardFormCart {
+  padding-top: 10em;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  .Form {
+    width: 60%;
+    .topTable {
+      display: grid;
+      grid-template-columns: 60% 30% 10%;
     }
+    .bodyForm {
+        display: grid;
+        grid-template-columns: 60% 30% 10%;
+      .Product_Component {
+        display: grid;
+        grid-template-columns: 40% 60%;
+      }
+      .button_Table,.total_Table,.Product_Component
+      {
+        padding: 3vh 0vh 3vh 0vh;
+      }
+    }
+    .CheckingButton
+    {
+      padding-top: 3vh;
+      .backButton
+      {
+
+      }
+      .checkoutButton
+      {
+        float: right;
+      }
+    }
+  }
 }

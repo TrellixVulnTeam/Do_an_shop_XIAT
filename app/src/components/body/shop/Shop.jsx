@@ -8,9 +8,9 @@ import {
   Button,
   Typography,
   Link,
-  Modal,
+  Modal,  
 } from "@mui/material";
-import Cookies from 'universal-cookie';
+import Cookies from "universal-cookie";
 import { Route, Routes, useParams } from "react-router-dom";
 import CardComponentShop from "../smallComponent/CardComponentShop";
 import Checkingform from "../smallComponent/CheckingForm";
@@ -18,12 +18,12 @@ import Checkingform from "../smallComponent/CheckingForm";
 const Shop = ({ allData, isReady }) => {
   const cookies = new Cookies();
 
-  useEffect(()=>{
-    cookies.set("username=John Doe", "expired=12s",{path:"/"});
-  },[])
+  useEffect(() => {
+    cookies.set("username=John Doe", "expired=12s", { path: "/" });
+  }, []);
 
   if (!isReady) {
-    return <></>
+    return <></>;
   }
 
   return (
@@ -47,9 +47,11 @@ const Shop = ({ allData, isReady }) => {
       </Typography>
       <Box className="AllProductShop">
         {allData.map((e, index) => (
-          <CardComponentShop data={e} key={index} />
+          <Box key={index} >
+            <CardComponentShop data={e}/>
+          </Box>
         ))}
-        <Checkingform />
+         <Checkingform/>
       </Box>
     </Box>
   );

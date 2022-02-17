@@ -23,12 +23,11 @@ const Dish = () => {
   });
   const nameDish = data[1][0];
   const data1 = data[1][1];
-  console.log(nameDish);
 
   return (
     <Box className="ShopComponent">
       <Typography
-        gutterBottom  
+        gutterBottom
         variant="h6"
         component="div"
         className=""
@@ -46,8 +45,8 @@ const Dish = () => {
         / {nameDish}
       </Typography>
       <Box className="AllProductShop">
-        {data1.map((e) => (
-          <CardComponentShop data={e} />
+        {data1.map((e, index) => (
+          <CardComponentShop data={e} key={index} />
         ))}
         <Checkingform />
       </Box>

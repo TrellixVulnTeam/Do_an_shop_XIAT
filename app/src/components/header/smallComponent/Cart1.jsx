@@ -15,7 +15,7 @@ import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 
 const Cart1 = () => {
   return (
-    <Box className="Card_1">
+    <Box className="Cart_1">
         <Button>
           <ShoppingCartIcon />
         </Button>

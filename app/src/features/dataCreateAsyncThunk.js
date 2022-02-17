@@ -2,7 +2,7 @@ import { createAsyncThunk } from "@reduxjs/toolkit"
 import axios from "axios"
 
 const url = "http://localhost:5000/api/private/read"
-
+const urlCart = "http://localhost:5000/api/method/getItemsCart"
 const getDataPizza = createAsyncThunk(
     "read/pizza",
     async () => {
@@ -56,6 +56,7 @@ const getDataCupcake = createAsyncThunk(
         )
     }
 )
+
 const getDataChicken = createAsyncThunk(
     "read/chicken",
     async () => {

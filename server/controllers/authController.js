@@ -5,39 +5,78 @@ const jwt = require("jsonwebtoken");
 
 const RegisterController = async (req, res) => {
   const { username, email, password } = req.body;
-  const oldUser = await User.findOne({ email });
+  const ERROR_PASSWORD = [];
+  const ERROR_EMAIL = [];
+  const ERROR_USERNAME = [];
 
-  if (!username || !email || !password)
-    res.json({ success: false, msg: "Please fill in the field!" });
-  if (password.length < 8)
-    res.json({
-      success: false,
-      msg: "Your password must be more 8 character !",
-    });
-  if (!/^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$/.test(email))
-    res.json({ success: false, msg: "Email is invalid !" });
-  if (oldUser) res.json({ success: false, msg: "Account already exists !" });
+  const oldUser = await User.findOne({ email });
+  if (oldUser) {
+    ERROR_EMAIL.push("Account already exists !");
+  }
+  ///Validate form
+
+  if (!username) {
+    ERROR_USERNAME.push("Please fill in the field!");
+  }
+  if (!email) {
+    ERROR_EMAIL.push("Please fill in the field!");
+  }
+  if (!password) {
+    ERROR_PASSWORD.push("Please fill in the field!");
+  }
+
+  if (password.length < 8) {
+    ERROR_PASSWORD.push("Your password must be more 8 character !");
+  }
+  if (!/^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$/.test(email)) {
+    ERROR_EMAIL.push("Email is invalid !");
+  }
+
+  ///Generate refreshtoken
 
   const newRefreshToken = RefreshToken(email);
-  bcrypt.hash(password, 12, async (err, hash) => {
-    const hashPassword = hash;
 
-    const newUser = new User({
-      username: username,
-      email: email,
-      password: hashPassword,
-      refresToKen: newRefreshToken,
+  if (
+    ERROR_PASSWORD.length === 0 &&
+    ERROR_EMAIL.length === 0 &&
+    ERROR_USERNAME.length === 0
+  ) {
+    bcrypt.hash(password, 12, async (err, hash) => {
+      const hashPassword = hash;
+
+      const newUser = new User({
+        username: username,
+        email: email,
+        password: hashPassword,
+        refresToKen: newRefreshToken,
+      });
+      await newUser.save();
+      res.json({ success: true, msg: "Create account sucessfully !!" });
     });
-    await newUser.save();
-    res.json({ success: true, msg: "Create account sucessfully !!" });
-  });
+  } else {
+    const ERROR = {
+      ERROR_PASSWORD: ERROR_PASSWORD,
+      ERROR_EMAIL: ERROR_EMAIL,
+      ERROR_USERNAME: ERROR_USERNAME,
+    };
+    res.status(200).json({
+      success: false,
+      msg: "Create account unsucessfully !!",
+      err: ERROR,
+    });
+  }
 };
 
 const LoginController = async (req, res) => {
   const { email, password } = req.body;
+  // console.log(req.body)
   const ERROR_PASSWORD = [];
   const ERROR_EMAIL = [];
   const oldUser = await User.findOne({ email });
+
+  if (!oldUser) {
+    ERROR_EMAIL.push("Email does not exist");
+  }
   if (oldUser !== null && oldUser !== undefined) {
     const checkPassword = await bcrypt.compare(password, oldUser.password);
     if (!checkPassword) {
@@ -50,9 +89,6 @@ const LoginController = async (req, res) => {
   if (password.length < 8) {
     ERROR_PASSWORD.push("Your password must be more 8 character !");
   }
-  if (!oldUser) {
-    ERROR_EMAIL.push("Email does not exist");
-  }
   if (ERROR_EMAIL.length == 0 && ERROR_PASSWORD.length == 0) {
     const accessToken = generateToken(email);
     res.status(200).json({
@@ -60,7 +96,7 @@ const LoginController = async (req, res) => {
       accessToken: accessToken,
       msg: "Access Token is created !",
     });
-  } else if (ERROR_PASSWORD.length > 0 || ERROR_PASSWORD > 0) {
+  } else if (ERROR_PASSWORD.length > 0 || ERROR_EMAIL.length > 0) {
     res.status(200).json({
       success: false,
       err_password: ERROR_PASSWORD,
@@ -81,14 +117,14 @@ const CheckToken = async (req, res) => {
       res.json({ success: false, msg: "Token is invalid" });
     } else {
       const dataUser = await User.findOne({ email: decodeToken.data }); //dataUser of this token
-      if (dataUser.length == 0) {
+      if (dataUser.length === 0) {
         res.json({ success: false, msg: "Data doesn't exist !!" });
       } else {
         if (dataUser.admin) {
           const dataAdmin = await User.find({});
           res.json({ dataUser: dataAdmin, dataAdmin: dataUser }); //dataAdmin is alldata-----key
         } else {
-          res.json({ dataUser: data });
+          res.json({ dataUser: dataUser });
         }
       }
     }
